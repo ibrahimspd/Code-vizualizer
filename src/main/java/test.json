@@ -1,0 +1,6591 @@
+{
+  "tree": {
+    "myapplication": {
+      "database": {
+        "listeners": {
+          "user": {},
+          "team": {
+            "OnAddTeamListener.java": {
+              "name": "OnAddTeamListener",
+              "class": {
+                "id": "d4afb13e-583d-426e-a36b-57138730941b",
+                "functions": {
+                  "onError": {
+                    "id": "OnAddTeamListener#onError"
+                  },
+                  "onTeamFilled": {
+                    "id": "OnAddTeamListener#onTeamFilled"
+                  }
+                },
+                "fileName": "myapplication/database/listeners/team/OnAddTeamListener.java",
+                "name": "OnAddTeamListener"
+              }
+            },
+            "OnGetTeamListener.java": {
+              "name": "OnGetTeamListener",
+              "class": {
+                "id": "56ec7135-3aba-41d9-99f0-41af92c1215d",
+                "functions": {
+                  "onError": {
+                    "id": "OnGetTeamListener#onError"
+                  },
+                  "onTeamFilled": {
+                    "id": "OnGetTeamListener#onTeamFilled"
+                  }
+                },
+                "fileName": "myapplication/database/listeners/team/OnGetTeamListener.java",
+                "name": "OnGetTeamListener"
+              }
+            }
+          },
+          "player": {
+            "OnUpdatePlayerListener.java": {
+              "name": "OnUpdatePlayerListener",
+              "class": {
+                "id": "19ac7803-ef35-44aa-9f8e-951591f3d156",
+                "functions": {
+                  "onError": {
+                    "id": "OnUpdatePlayerListener#onError"
+                  },
+                  "onPlayerAdded": {
+                    "id": "OnUpdatePlayerListener#onPlayerAdded"
+                  }
+                },
+                "fileName": "myapplication/database/listeners/player/OnUpdatePlayerListener.java",
+                "name": "OnUpdatePlayerListener"
+              }
+            },
+            "OnGetPlayerListener.java": {
+              "name": "OnGetPlayerListener",
+              "class": {
+                "id": "cb2021eb-624d-48db-a41a-334f3aa26cd3",
+                "functions": {
+                  "onError": {
+                    "id": "OnGetPlayerListener#onError"
+                  },
+                  "onPlayerFilled": {
+                    "id": "OnGetPlayerListener#onPlayerFilled"
+                  }
+                },
+                "fileName": "myapplication/database/listeners/player/OnGetPlayerListener.java",
+                "name": "OnGetPlayerListener"
+              }
+            },
+            "OnGetMultiplePlayers.java": {
+              "name": "OnGetMultiplePlayers",
+              "class": {
+                "id": "019ffd36-9f91-48a3-9ede-2b7acf94a6d6",
+                "functions": {
+                  "onError": {
+                    "id": "OnGetMultiplePlayers#onError"
+                  },
+                  "onTeamFilled": {
+                    "id": "OnGetMultiplePlayers#onTeamFilled"
+                  }
+                },
+                "fileName": "myapplication/database/listeners/player/OnGetMultiplePlayers.java",
+                "name": "OnGetMultiplePlayers"
+              }
+            }
+          }
+        }
+      },
+      "entites": {
+        "Team.java": {
+          "name": "TeamBuilder",
+          "class": {
+            "id": "e3cb2fa7-e871-4a54-a9e8-3c5f0e8772bf",
+            "functions": {
+              "setName": {
+                "id": "TeamBuilder#setName"
+              },
+              "setTeamId": {
+                "id": "TeamBuilder#setTeamId"
+              },
+              "setManagerId": {
+                "id": "TeamBuilder#setManagerId"
+              },
+              "setKitStyle": {
+                "id": "TeamBuilder#setKitStyle"
+              },
+              "setLayout": {
+                "id": "TeamBuilder#setLayout"
+              },
+              "setBackground": {
+                "id": "TeamBuilder#setBackground"
+              },
+              "setSecondaryColor": {
+                "id": "TeamBuilder#setSecondaryColor"
+              },
+              "setTeamLogo": {
+                "id": "TeamBuilder#setTeamLogo"
+              },
+              "build": {
+                "id": "TeamBuilder#build"
+              },
+              "setKit": {
+                "id": "TeamBuilder#setKit"
+              },
+              "setMainColor": {
+                "id": "TeamBuilder#setMainColor"
+              },
+              "setGkKit": {
+                "id": "TeamBuilder#setGkKit"
+              },
+              "setFontColor": {
+                "id": "TeamBuilder#setFontColor"
+              },
+              "setFont": {
+                "id": "TeamBuilder#setFont"
+              },
+              "setLanguage": {
+                "id": "TeamBuilder#setLanguage"
+              }
+            },
+            "fileName": "myapplication/entites/Team.java",
+            "name": "TeamBuilder"
+          }
+        },
+        "Credentials.java": {
+          "name": "Credentials",
+          "class": {
+            "id": "23cb4624-3853-428b-b7a9-63161d5841d0",
+            "functions": {
+              "getPassword": {
+                "id": "Credentials#getPassword"
+              },
+              "equals": {
+                "id": "Credentials#equals"
+              },
+              "getEmail": {
+                "id": "Credentials#getEmail"
+              }
+            },
+            "fileName": "myapplication/entites/Credentials.java",
+            "name": "Credentials"
+          }
+        },
+        "name": "PlayerBuilder",
+        "class": {
+          "id": "abbc02d5-442c-4fe4-8ac1-037911e5a0d9",
+          "functions": {
+            "setName": {
+              "id": "PlayerBuilder#setName"
+            },
+            "setTeamId": {
+              "id": "PlayerBuilder#setTeamId"
+            },
+            "setAvatar": {
+              "id": "PlayerBuilder#setAvatar"
+            },
+            "build": {
+              "id": "PlayerBuilder#build"
+            },
+            "setId": {
+              "id": "PlayerBuilder#setId"
+            },
+            "setIsManager": {
+              "id": "PlayerBuilder#setIsManager"
+            },
+            "setUuid": {
+              "id": "PlayerBuilder#setUuid"
+            },
+            "setPosition": {
+              "id": "PlayerBuilder#setPosition"
+            },
+            "setNationality": {
+              "id": "PlayerBuilder#setNationality"
+            },
+            "setNumber": {
+              "id": "PlayerBuilder#setNumber"
+            },
+            "setTeam": {
+              "id": "PlayerBuilder#setTeam"
+            }
+          },
+          "fileName": "myapplication/entites/Player.java",
+          "name": "PlayerBuilder"
+        },
+        "Lineup.java": {
+          "name": "Lineup",
+          "class": {
+            "id": "ecc16ed8-52cd-4d04-8fe0-dffa36201aa3",
+            "functions": {
+              "setPlayers": {
+                "id": "Lineup#setPlayers"
+              },
+              "setFormation": {
+                "id": "Lineup#setFormation"
+              },
+              "getTeam": {
+                "id": "Lineup#getTeam"
+              },
+              "getFormation": {
+                "id": "Lineup#getFormation"
+              },
+              "getPlayers": {
+                "id": "Lineup#getPlayers"
+              },
+              "setTeam": {
+                "id": "Lineup#setTeam"
+              }
+            },
+            "fileName": "myapplication/entites/Lineup.java",
+            "name": "Lineup"
+          }
+        },
+        "Invitations.java": {
+          "name": "Invitations",
+          "class": {
+            "id": "6466f915-f83a-49a9-92db-f3add8670fe1",
+            "functions": {
+              "getFromUserId": {
+                "id": "Invitations#getFromUserId"
+              },
+              "getFromUsername": {
+                "id": "Invitations#getFromUsername"
+              },
+              "getTeamId": {
+                "id": "Invitations#getTeamId"
+              },
+              "toString": {
+                "id": "Invitations#toString"
+              },
+              "getUserId": {
+                "id": "Invitations#getUserId"
+              },
+              "getToUsername": {
+                "id": "Invitations#getToUsername"
+              }
+            },
+            "fileName": "myapplication/entites/Invitations.java",
+            "name": "Invitations"
+          }
+        },
+        "Player.java": {
+          "name": "Player",
+          "class": {
+            "id": "9b8b0a6b-85bf-46f0-9e92-63c63c32b489",
+            "functions": {
+              "setTeamId": {
+                "id": "Player#setTeamId"
+              },
+              "getName": {
+                "id": "Player#getName"
+              },
+              "getAvatar": {
+                "id": "Player#getAvatar"
+              },
+              "getTeamId": {
+                "id": "Player#getTeamId"
+              },
+              "getIsManager": {
+                "id": "Player#getIsManager"
+              },
+              "getId": {
+                "id": "Player#getId"
+              },
+              "setUuid": {
+                "id": "Player#setUuid"
+              },
+              "setPosition": {
+                "id": "Player#setPosition"
+              },
+              "setNumber": {
+                "id": "Player#setNumber"
+              },
+              "setTeam": {
+                "id": "Player#setTeam"
+              },
+              "getNumber": {
+                "id": "Player#getNumber"
+              },
+              "getPosition": {
+                "id": "Player#getPosition"
+              },
+              "getTeam": {
+                "id": "Player#getTeam"
+              },
+              "getUuid": {
+                "id": "Player#getUuid"
+              },
+              "getNationality": {
+                "id": "Player#getNationality"
+              },
+              "setId": {
+                "id": "Player#setId"
+              },
+              "setIsManager": {
+                "id": "Player#setIsManager"
+              },
+              "setNationality": {
+                "id": "Player#setNationality"
+              }
+            },
+            "fileName": "myapplication/entites/Player.java",
+            "name": "Player"
+          }
+        },
+        "FcmToken.java": {
+          "name": "FcmToken",
+          "class": {
+            "id": "aae2c359-47fc-4271-8509-b54c0d6deebc",
+            "functions": {
+              "setTokenValue": {
+                "id": "FcmToken#setTokenValue"
+              },
+              "getToken": {
+                "id": "FcmToken#getToken"
+              },
+              "getTokenValue": {
+                "id": "FcmToken#getTokenValue"
+              }
+            },
+            "fileName": "myapplication/entites/FcmToken.java",
+            "name": "FcmToken"
+          }
+        }
+      },
+      "controller": {
+        "NotificationHandler.java": {
+          "name": "NotificationHandler",
+          "class": {
+            "id": "b055954e-d584-48de-91fd-8082439bcefd",
+            "functions": {
+              "onMessageReceived": {
+                "id": "NotificationHandler#onMessageReceived"
+              }
+            },
+            "fileName": "myapplication/controller/NotificationHandler.java",
+            "name": "NotificationHandler"
+          }
+        },
+        "InvitePlayers.java": {
+          "name": "InvitePlayers",
+          "class": {
+            "id": "4db94e91-49a9-4594-9689-bb270880b035",
+            "functions": {
+              "onCreate": {
+                "id": "InvitePlayers#onCreate"
+              },
+              "onCreateView": {
+                "id": "InvitePlayers#onCreateView"
+              }
+            },
+            "fileName": "myapplication/controller/InvitePlayers.java",
+            "name": "InvitePlayers"
+          }
+        },
+        "ColorPicker.java": {
+          "name": "ColorPicker",
+          "class": {
+            "id": "854bea58-d606-4d59-b92f-494424910269",
+            "functions": {
+              "onCreate": {
+                "id": "ColorPicker#onCreate"
+              },
+              "setLayoutColor": {
+                "id": "ColorPicker#setLayoutColor"
+              },
+              "onActivityResult": {
+                "id": "ColorPicker#onActivityResult"
+              }
+            },
+            "fileName": "myapplication/controller/ColorPicker.java",
+            "name": "ColorPicker"
+          }
+        },
+        "GenerateLineupFragment.java": {
+          "name": "GenerateLineupFragment",
+          "class": {
+            "id": "95d2f853-853d-40f5-b030-23c625854543",
+            "functions": {
+              "onDestroyView": {
+                "id": "GenerateLineupFragment#onDestroyView"
+              },
+              "onCreateView": {
+                "id": "GenerateLineupFragment#onCreateView"
+              },
+              "getFormation": {
+                "id": "GenerateLineupFragment#getFormation"
+              }
+            },
+            "fileName": "myapplication/controller/GenerateLineupFragment.java",
+            "name": "GenerateLineupFragment"
+          }
+        },
+        "ProfileFragment.java": {
+          "name": "ProfileFragment",
+          "class": {
+            "id": "065b15b6-0411-4858-be7c-e8678f8b99d4",
+            "functions": {
+              "onDestroyView": {
+                "id": "ProfileFragment#onDestroyView"
+              },
+              "onCreateView": {
+                "id": "ProfileFragment#onCreateView"
+              }
+            },
+            "fileName": "myapplication/controller/ProfileFragment.java",
+            "name": "ProfileFragment"
+          }
+        },
+        "StartActivity.java": {
+          "name": "StartActivity",
+          "class": {
+            "id": "fb1eed7e-2f0c-4d81-abf1-f5b69d4872af",
+            "functions": {
+              "showHompageOnClick": {
+                "id": "StartActivity#showHompageOnClick"
+              },
+              "onCreate": {
+                "id": "StartActivity#onCreate"
+              },
+              "openGenerateLineupFragment": {
+                "id": "StartActivity#openGenerateLineupFragment"
+              },
+              "openRegisterPageActivity": {
+                "id": "StartActivity#openRegisterPageActivity"
+              },
+              "showRegisterPageOnClick": {
+                "id": "StartActivity#showRegisterPageOnClick"
+              },
+              "onActivityResult": {
+                "id": "StartActivity#onActivityResult"
+              },
+              "openLoginActivity": {
+                "id": "StartActivity#openLoginActivity"
+              },
+              "showGenerateLineupFragment": {
+                "id": "StartActivity#showGenerateLineupFragment"
+              }
+            },
+            "fileName": "myapplication/controller/StartActivity.java",
+            "name": "StartActivity"
+          }
+        },
+        "AdminFragment.java": {
+          "name": "AdminFragment",
+          "class": {
+            "id": "9992d346-e9d7-4072-98dd-3aa2a665864a",
+            "functions": {
+              "onDestroyView": {
+                "id": "AdminFragment#onDestroyView"
+              },
+              "onCreateView": {
+                "id": "AdminFragment#onCreateView"
+              }
+            },
+            "fileName": "myapplication/controller/AdminFragment.java",
+            "name": "AdminFragment"
+          }
+        },
+        "MainActivity.java": {
+          "name": "MainActivity",
+          "class": {
+            "id": "3b0b6ee6-ae95-4b3d-9517-ac98d89ec304",
+            "functions": {
+              "onCreate": {
+                "id": "MainActivity#onCreate"
+              },
+              "getPlayer": {
+                "id": "MainActivity#getPlayer"
+              },
+              "showScreen": {
+                "id": "MainActivity#showScreen"
+              },
+              "getTeam": {
+                "id": "MainActivity#getTeam"
+              },
+              "getPlayersToInvite": {
+                "id": "MainActivity#getPlayersToInvite"
+              },
+              "setPlayer": {
+                "id": "MainActivity#setPlayer"
+              },
+              "onSupportNavigateUp": {
+                "id": "MainActivity#onSupportNavigateUp"
+              },
+              "getPlayers": {
+                "id": "MainActivity#getPlayers"
+              },
+              "setTeam": {
+                "id": "MainActivity#setTeam"
+              }
+            },
+            "fileName": "myapplication/controller/MainActivity.java",
+            "name": "MainActivity"
+          }
+        },
+        "TeamInfoFragment.java": {
+          "name": "TeamInfoFragment",
+          "class": {
+            "id": "ca8028d6-4906-4cac-a904-ef38c099592e",
+            "functions": {
+              "displayErrorToast": {
+                "id": "TeamInfoFragment#displayErrorToast"
+              },
+              "onDestroyView": {
+                "id": "TeamInfoFragment#onDestroyView"
+              },
+              "displayTeamInfo": {
+                "id": "TeamInfoFragment#displayTeamInfo"
+              },
+              "getPhotoPickerIntent": {
+                "id": "TeamInfoFragment#getPhotoPickerIntent"
+              },
+              "onCreateView": {
+                "id": "TeamInfoFragment#onCreateView"
+              },
+              "toggleSaveDiscardButtons": {
+                "id": "TeamInfoFragment#toggleSaveDiscardButtons"
+              },
+              "makeBoxesVisible": {
+                "id": "TeamInfoFragment#makeBoxesVisible"
+              }
+            },
+            "fileName": "myapplication/controller/TeamInfoFragment.java",
+            "name": "TeamInfoFragment"
+          }
+        },
+        "RegisterActivity.java": {
+          "name": "RegisterActivity",
+          "class": {
+            "id": "53c1c52e-4e62-4407-ba43-bd53caf30ad5",
+            "functions": {
+              "onCreate": {
+                "id": "RegisterActivity#onCreate"
+              }
+            },
+            "fileName": "myapplication/controller/RegisterActivity.java",
+            "name": "RegisterActivity"
+          }
+        },
+        "LoginActivity.java": {
+          "name": "LoginActivity",
+          "class": {
+            "id": "10cd6895-6929-4453-83f0-eb77d0b92316",
+            "functions": {
+              "onCreate": {
+                "id": "LoginActivity#onCreate"
+              }
+            },
+            "fileName": "myapplication/controller/LoginActivity.java",
+            "name": "LoginActivity"
+          }
+        },
+        "PlayersFragment.java": {
+          "name": "PlayersFragment",
+          "class": {
+            "id": "05ccf638-1205-4153-be0a-358ad44007e2",
+            "functions": {
+              "onDestroyView": {
+                "id": "PlayersFragment#onDestroyView"
+              },
+              "onCreateView": {
+                "id": "PlayersFragment#onCreateView"
+              }
+            },
+            "fileName": "myapplication/controller/PlayersFragment.java",
+            "name": "PlayersFragment"
+          }
+        },
+        "AboutFragment.java": {
+          "name": "AboutFragment",
+          "class": {
+            "id": "a2ac5069-da6e-4126-8b12-d7a539b96060",
+            "functions": {
+              "onCreate": {
+                "id": "AboutFragment#onCreate"
+              },
+              "newInstance": {
+                "id": "AboutFragment#newInstance"
+              },
+              "onCreateView": {
+                "id": "AboutFragment#onCreateView"
+              }
+            },
+            "fileName": "myapplication/controller/AboutFragment.java",
+            "name": "AboutFragment"
+          }
+        },
+        "GenerateBackground.java": {
+          "name": "GenerateBackground",
+          "class": {
+            "id": "3f443e3f-dbda-4a2c-910c-50aed387a48a",
+            "functions": {},
+            "fileName": "myapplication/controller/GenerateBackground.java",
+            "name": "GenerateBackground"
+          }
+        }
+      },
+      "model": {
+        "TeamInfoModel.java": {
+          "name": "TeamInfoModel",
+          "class": {
+            "id": "9df59628-6e67-4827-b9b4-4960efa9c8a7",
+            "functions": {
+              "loadImageFromFiresbase": {
+                "id": "TeamInfoModel#loadImageFromFiresbase"
+              },
+              "handleResult": {
+                "id": "TeamInfoModel#handleResult"
+              },
+              "storeImageToFirebaseStorage": {
+                "id": "TeamInfoModel#storeImageToFirebaseStorage"
+              },
+              "getColorPickerIntent": {
+                "id": "TeamInfoModel#getColorPickerIntent"
+              },
+              "loadImageFromUrl": {
+                "id": "TeamInfoModel#loadImageFromUrl"
+              },
+              "getInputStream": {
+                "id": "TeamInfoModel#getInputStream"
+              },
+              "loadImage": {
+                "id": "TeamInfoModel#loadImage"
+              }
+            },
+            "fileName": "myapplication/model/TeamInfoModel.java",
+            "name": "TeamInfoModel"
+          }
+        },
+        "TeamModel.java": {
+          "name": "TeamModel",
+          "class": {
+            "id": "bdf39028-a4f6-4e2f-8059-0cf5106d427f",
+            "functions": {
+              "getTeam": {
+                "id": "TeamModel#getTeam"
+              },
+              "addTeam": {
+                "id": "TeamModel#addTeam"
+              }
+            },
+            "fileName": "myapplication/model/TeamModel.java",
+            "name": "TeamModel"
+          }
+        },
+        "PlayerItem.java": {
+          "name": "PlayerItem",
+          "class": {
+            "id": "95884be3-c764-44b7-8651-01f55d177117",
+            "functions": {
+              "setImageUrl": {
+                "id": "PlayerItem#setImageUrl"
+              },
+              "getNumber": {
+                "id": "PlayerItem#getNumber"
+              },
+              "setGamerTag": {
+                "id": "PlayerItem#setGamerTag"
+              },
+              "getPosition": {
+                "id": "PlayerItem#getPosition"
+              },
+              "setUsername": {
+                "id": "PlayerItem#setUsername"
+              },
+              "getGamerTag": {
+                "id": "PlayerItem#getGamerTag"
+              },
+              "getImageUrl": {
+                "id": "PlayerItem#getImageUrl"
+              },
+              "getNationality": {
+                "id": "PlayerItem#getNationality"
+              },
+              "setPosition": {
+                "id": "PlayerItem#setPosition"
+              },
+              "setNationality": {
+                "id": "PlayerItem#setNationality"
+              },
+              "setNumber": {
+                "id": "PlayerItem#setNumber"
+              },
+              "getUsername": {
+                "id": "PlayerItem#getUsername"
+              }
+            },
+            "fileName": "myapplication/model/PlayerItem.java",
+            "name": "PlayerItem"
+          }
+        },
+        "InvitationListAdapter.java": {
+          "name": "InvitationListAdapter",
+          "class": {
+            "id": "4e94240e-0a60-4723-a84b-c49125ff65a7",
+            "functions": {
+              "getItemCount": {
+                "id": "InvitationListAdapter#getItemCount"
+              },
+              "onCreateViewHolder": {
+                "id": "InvitationListAdapter#onCreateViewHolder"
+              },
+              "onBindViewHolder": {
+                "id": "InvitationListAdapter#onBindViewHolder"
+              }
+            },
+            "fileName": "myapplication/model/InvitationListAdapter.java",
+            "name": "InvitationListAdapter"
+          }
+        },
+        "name": "ViewHolder",
+        "class": {
+          "id": "0f78634e-ff6c-478f-9338-53aee95aa742",
+          "functions": {},
+          "fileName": "myapplication/model/PlayerInfoListAdapter.java",
+          "name": "ViewHolder"
+        },
+        "GenerateLineupModel.java": {
+          "name": "GenerateLineupModel",
+          "class": {
+            "id": "91efac5b-f20c-415f-a15f-bb953a340269",
+            "functions": {
+              "addAutocomplete": {
+                "id": "GenerateLineupModel#addAutocomplete"
+              },
+              "getResponse": {
+                "id": "GenerateLineupModel#getResponse"
+              },
+              "createLineupRequest": {
+                "id": "GenerateLineupModel#createLineupRequest"
+              },
+              "shareImage": {
+                "id": "GenerateLineupModel#shareImage"
+              },
+              "getBitmapFromResponse": {
+                "id": "GenerateLineupModel#getBitmapFromResponse"
+              },
+              "playerToPlayerItem": {
+                "id": "GenerateLineupModel#playerToPlayerItem"
+              },
+              "getPlayerFromInputFields": {
+                "id": "GenerateLineupModel#getPlayerFromInputFields"
+              },
+              "setActivity": {
+                "id": "GenerateLineupModel#setActivity"
+              },
+              "loadPlayerDropdown": {
+                "id": "GenerateLineupModel#loadPlayerDropdown"
+              },
+              "createLineup": {
+                "id": "GenerateLineupModel#createLineup"
+              },
+              "storeBitMapInAppdata": {
+                "id": "GenerateLineupModel#storeBitMapInAppdata"
+              },
+              "addPlayerFromInputField": {
+                "id": "GenerateLineupModel#addPlayerFromInputField"
+              },
+              "addInputFields": {
+                "id": "GenerateLineupModel#addInputFields"
+              },
+              "setHints": {
+                "id": "GenerateLineupModel#setHints"
+              },
+              "saveImage": {
+                "id": "GenerateLineupModel#saveImage"
+              }
+            },
+            "fileName": "myapplication/model/GenerateLineupModel.java",
+            "name": "GenerateLineupModel"
+          }
+        },
+        "Authentication.java": {
+          "name": "Authentication",
+          "class": {
+            "id": "583a73c7-9d8e-4248-bb70-2e79cb1ad830",
+            "functions": {
+              "authenticateUser": {
+                "id": "Authentication#authenticateUser"
+              },
+              "deleteUser": {
+                "id": "Authentication#deleteUser"
+              },
+              "createUser": {
+                "id": "Authentication#createUser"
+              }
+            },
+            "fileName": "myapplication/model/Authentication.java",
+            "name": "Authentication"
+          }
+        },
+        "AutocompleteAdapter.java": {
+          "name": "AutocompleteAdapter",
+          "class": {
+            "id": "5d3747cc-4f59-4b9e-a0eb-18abc8234038",
+            "functions": {
+              "getFilter": {
+                "id": "AutocompleteAdapter#getFilter"
+              },
+              "getView": {
+                "id": "AutocompleteAdapter#getView"
+              }
+            },
+            "fileName": "myapplication/model/AutocompleteAdapter.java",
+            "name": "AutocompleteAdapter"
+          }
+        },
+        "LoginModel.java": {
+          "name": "LoginModel",
+          "class": {
+            "id": "832bcce6-0079-4aaf-b326-8b07aa6439ed",
+            "functions": {
+              "isFieldsEmpty": {
+                "id": "LoginModel#isFieldsEmpty"
+              },
+              "signIn": {
+                "id": "LoginModel#signIn"
+              }
+            },
+            "fileName": "myapplication/model/LoginModel.java",
+            "name": "LoginModel"
+          }
+        },
+        "PlayersModel.java": {
+          "name": "PlayersModel",
+          "class": {
+            "id": "a671e164-cd33-42f8-9997-898314f171d3",
+            "functions": {
+              "getText": {
+                "id": "PlayersModel#getText"
+              }
+            },
+            "fileName": "myapplication/model/PlayersModel.java",
+            "name": "PlayersModel"
+          }
+        },
+        "LineupModel.java": {
+          "name": "LineupModel",
+          "class": {
+            "id": "ad0c4ad0-579f-4fa6-abff-2e23a6f05a1a",
+            "functions": {
+              "generateLineup": {
+                "id": "LineupModel#generateLineup"
+              }
+            },
+            "fileName": "myapplication/model/LineupModel.java",
+            "name": "LineupModel"
+          }
+        },
+        "AdminTeamListAdapter.java": {
+          "name": "AdminTeamListAdapter",
+          "class": {
+            "id": "499dccb2-44cf-4f40-8d46-f481a6a81daf",
+            "functions": {
+              "getItemCount": {
+                "id": "AdminTeamListAdapter#getItemCount"
+              },
+              "onCreateViewHolder": {
+                "id": "AdminTeamListAdapter#onCreateViewHolder"
+              },
+              "onBindViewHolder": {
+                "id": "AdminTeamListAdapter#onBindViewHolder"
+              }
+            },
+            "fileName": "myapplication/model/AdminTeamListAdapter.java",
+            "name": "AdminTeamListAdapter"
+          }
+        },
+        "PlayerInfoListAdapter.java": {
+          "name": "PlayerInfoListAdapter",
+          "class": {
+            "id": "17679bc8-574d-462e-80d5-cefdcd1be1a8",
+            "functions": {
+              "getItemCount": {
+                "id": "PlayerInfoListAdapter#getItemCount"
+              },
+              "onCreateViewHolder": {
+                "id": "PlayerInfoListAdapter#onCreateViewHolder"
+              },
+              "onBindViewHolder": {
+                "id": "PlayerInfoListAdapter#onBindViewHolder"
+              }
+            },
+            "fileName": "myapplication/model/PlayerInfoListAdapter.java",
+            "name": "PlayerInfoListAdapter"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "ProfileFragment#onDestroyView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "ProfileFragment#onDestroyView",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onDestroyView",
+        "ProfileFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView"
+      ],
+      "children": [
+        "ProfileFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "GenerateLineupFragment#onDestroyView"
+      ]
+    },
+    "PlayerBuilder#setUuid": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setUuid",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "RegisterActivity#onCreate"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#addInputFields": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#addInputFields",
+      "recursive": "false",
+      "inComing": 11,
+      "outGoing": 0,
+      "numberOfCalls": 11,
+      "parents": [
+        "GenerateLineupFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "PlayerItem#setImageUrl": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#setImageUrl",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "TeamModel#addTeam": {
+      "parameters": {
+        "teamName": "String",
+        "username": "String",
+        "playerId": "String"
+      },
+      "name": "TeamModel#addTeam",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onPlayerAdded",
+        "TeamModel#addTeam"
+      ],
+      "children": [
+        "TeamModel#addTeam",
+        "Team#setMainColor",
+        "TeamBuilder#setTeamLogo",
+        "TeamBuilder#setBackground",
+        "Team#setFont",
+        "Player#setTeamId",
+        "Team#setBackground",
+        "Team#setFontColor",
+        "TeamBuilder#setMainColor",
+        "PlayerBuilder#build",
+        "Database#addTeam",
+        "TeamBuilder#setKit",
+        "Team#setManagerId",
+        "PlayerBuilder#setName",
+        "Team#setTeamId",
+        "TeamBuilder#build",
+        "Team#setGkKit",
+        "Team#setLanguage",
+        "TeamBuilder#setLayout",
+        "TeamBuilder#setGkKit",
+        "CredentialsBuilder#build",
+        "Team#setTeamLogo",
+        "Team#setSecondaryColor",
+        "TeamBuilder#setName",
+        "TeamBuilder#setFontColor",
+        "Team#setName",
+        "Team#setKit",
+        "TeamBuilder#setTeamId",
+        "TeamBuilder#setFont",
+        "PlayerBuilder#setTeamId",
+        "TeamBuilder#setLanguage",
+        "FirestoreImpl#addTeam",
+        "TeamBuilder#setManagerId",
+        "TeamBuilder#setSecondaryColor",
+        "Team#setLayout"
+      ]
+    },
+    "FirestoreImpl#getAllTeams": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getAllTeams",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "AdminFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#getTeamByPlayerId": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getTeamByPlayerId",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "MainActivity#onPlayerFilled"
+      ],
+      "children": []
+    },
+    "Player#getAvatar": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getAvatar",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "Database#getUserByUsername": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getUserByUsername",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "FirestoreImpl#getPlayersToInvite": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getPlayersToInvite",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "InvitePlayers#onCreateView"
+      ],
+      "children": []
+    },
+    "Team#getMainColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getMainColor",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "Credentials#getEmail": {
+      "parameters": {
+        "credentials": "Credentials"
+      },
+      "name": "Credentials#getEmail",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "FirestoreImpl#checkCredentials",
+        "FirestoreImpl#createAccount"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setIsManager": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setIsManager",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "PlayerItem#setNationality": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#setNationality",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "PlayerInfoListAdapter#getItemCount": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "PlayerInfoListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "PlayerInfoListAdapter#getItemCount",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Database#getAllTeams": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getAllTeams",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "AdminFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "Team#getBackground": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getBackground",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "Team#setMainColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setMainColor",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setTeamLogo": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setTeamLogo",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "StartActivity#onActivityResult": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#onActivityResult",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "ColorPicker#onActivityResult",
+        "StartActivity#onActivityResult"
+      ],
+      "children": [
+        "StartActivity#onActivityResult",
+        "ColorPicker#onActivityResult"
+      ]
+    },
+    "Team#getTeamId": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getTeamId",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "MainActivity#onTeamFilled",
+        "InvitationListAdapter#onClick",
+        "InvitationListAdapter#onComplete",
+        "PlayerInfoListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onClick"
+      ],
+      "children": []
+    },
+    "AboutFragment#onCreate": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater",
+        "param1": "String",
+        "param2": "String"
+      },
+      "name": "AboutFragment#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "RegisterActivity#onCreate",
+        "ColorPicker#onCreate",
+        "InvitePlayers#onCreate",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate"
+      ]
+    },
+    "InboxFragment#onCreate": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "InboxFragment#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "RegisterActivity#onCreate",
+        "ColorPicker#onCreate",
+        "InvitePlayers#onCreate",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate"
+      ]
+    },
+    "TeamModel#getTeam": {
+      "parameters": {
+        "teamName": "String",
+        "username": "String",
+        "playerId": "String"
+      },
+      "name": "TeamModel#getTeam",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#getTeam"
+      ],
+      "children": [
+        "TeamModel#getTeam",
+        "Player#getTeam",
+        "Lineup#getTeam",
+        "Database#getTeam",
+        "MainActivity#getTeam",
+        "FirestoreImpl#getTeam"
+      ]
+    },
+    "GenerateLineupModel#addPlayerFromInputField": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#addPlayerFromInputField",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#getPlayerFromInputFields"
+      ],
+      "children": [
+        "PlayerBuilder#setIsManager",
+        "PlayerItem#setNationality",
+        "Invitations#toString",
+        "PlayerBuilder#build",
+        "Player#setPosition",
+        "Lineup#setTeam",
+        "PlayerBuilder#setTeam",
+        "Team#toString",
+        "Player#setTeam",
+        "PlayerBuilder#setName",
+        "Player#setNationality",
+        "PlayerBuilder#setPosition",
+        "PlayersModel#getText",
+        "TeamBuilder#build",
+        "Credentials#equals",
+        "PlayerItem#setNumber",
+        "PlayerBuilder#setNumber",
+        "PlayerItem#setPosition",
+        "PlayerBuilder#setAvatar",
+        "Player#setIsManager",
+        "CredentialsBuilder#build",
+        "TeamBuilder#setName",
+        "PlayerBuilder#setNationality",
+        "Team#setName",
+        "Player#setNumber",
+        "MainActivity#setTeam"
+      ]
+    },
+    "Team#getFontColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getFontColor",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setBackground": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setBackground",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "TeamInfoModel#loadImageFromUrl": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#loadImageFromUrl",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoModel#handleResult",
+        "TeamInfoModel#loadImage"
+      ],
+      "children": []
+    },
+    "Team#getName": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getName",
+      "recursive": "false",
+      "inComing": 25,
+      "outGoing": 0,
+      "numberOfCalls": 25,
+      "parents": [
+        "FirestoreImpl#addTeam",
+        "FirestoreImpl#updateTeam",
+        "FirestoreImpl#addPlayer",
+        "FirestoreImpl#updatePlayer",
+        "ProfileFragment#onCreateView",
+        "TeamInfoFragment#onTeamFilled",
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#displayTeamInfo",
+        "TeamModel#onTeamFilled",
+        "GenerateLineupModel#playerToPlayerItem",
+        "AdminTeamListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onClick",
+        "PlayerInfoListAdapter#onComplete"
+      ],
+      "children": []
+    },
+    "Invitations#getToUsername": {
+      "parameters": {},
+      "name": "Invitations#getToUsername",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "InvitationListAdapter#onClick"
+      ],
+      "children": []
+    },
+    "StartActivity#openRegisterPageActivity": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#openRegisterPageActivity",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "StartActivity#showRegisterPageOnClick"
+      ],
+      "children": []
+    },
+    "Team#setFont": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setFont",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onItemSelected",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "PlayerInfoListAdapter#onBindViewHolder": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "PlayerInfoListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "PlayerInfoListAdapter#onBindViewHolder",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Player#getAvatar",
+        "Team#getTeamId",
+        "Team#getName",
+        "Player#getTeamId",
+        "Player#getNationality",
+        "Player#getNumber",
+        "Player#getName",
+        "Player#getPosition",
+        "Credentials#equals",
+        "PlayerItem#getPosition",
+        "Invitations#getTeamId",
+        "PlayerItem#getNationality",
+        "PlayerItem#getNumber"
+      ]
+    },
+    "Player#setTeamId": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setTeamId",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "OnGetTeamListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "teams": "Team"
+      },
+      "name": "OnGetTeamListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "StartActivity#showHompageOnClick": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#showHompageOnClick",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "StartActivity#onCreate"
+      ],
+      "children": [
+        "StartActivity#openLoginActivity"
+      ]
+    },
+    "Team#setBackground": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setBackground",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#setActivity": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#setActivity",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "ColorPicker#onActivityResult": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "envelope": "ColorEnvelope",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int"
+      },
+      "name": "ColorPicker#onActivityResult",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "ColorPicker#onActivityResult",
+        "StartActivity#onActivityResult"
+      ],
+      "children": [
+        "StartActivity#onActivityResult",
+        "ColorPicker#onActivityResult"
+      ]
+    },
+    "OnGetMultiplePlayers#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "players": "List<Player>"
+      },
+      "name": "OnGetMultiplePlayers#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "GenerateLineupModel#playerToPlayerItem": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#playerToPlayerItem",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#loadPlayerDropdown"
+      ],
+      "children": [
+        "Player#getAvatar",
+        "Team#getName",
+        "Player#getNationality",
+        "Player#getNumber",
+        "Player#getName",
+        "Player#getPosition",
+        "PlayerItem#getPosition",
+        "PlayerItem#getNationality",
+        "PlayerItem#getNumber"
+      ]
+    },
+    "GenerateLineupModel#createLineupRequest": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#createLineupRequest",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#createLineup"
+      ],
+      "children": [
+        "PlayerBuilder#build",
+        "TeamBuilder#build",
+        "CredentialsBuilder#build"
+      ]
+    },
+    "Team#setFontColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setFontColor",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "InvitationListAdapter#onBindViewHolder": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "InvitationListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "InvitationListAdapter#onBindViewHolder",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Invitations#getFromUsername"
+      ]
+    },
+    "GenerateLineupModel#getBitmapFromResponse": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#getBitmapFromResponse",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#createLineup"
+      ],
+      "children": []
+    },
+    "LoginModel#signIn": {
+      "parameters": {
+        "password": "String",
+        "email": "String"
+      },
+      "name": "LoginModel#signIn",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "LoginActivity#onCreate"
+      ],
+      "children": []
+    },
+    "StartActivity#showRegisterPageOnClick": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#showRegisterPageOnClick",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "StartActivity#onCreate"
+      ],
+      "children": [
+        "StartActivity#openRegisterPageActivity"
+      ]
+    },
+    "RegisterActivity#onCreate": {
+      "parameters": {
+        "savedInstanceState": "Bundle"
+      },
+      "name": "RegisterActivity#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "PlayerBuilder#setUuid",
+        "PlayerBuilder#setIsManager",
+        "PlayerItem#setNationality",
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "Player#setTeamId",
+        "RegisterActivity#onCreate",
+        "FirestoreImpl#addPlayer",
+        "Invitations#toString",
+        "Database#addPlayer",
+        "PlayerBuilder#build",
+        "Player#setPosition",
+        "Team#toString",
+        "PlayerBuilder#setName",
+        "Player#setNationality",
+        "PlayerBuilder#setPosition",
+        "Team#setTeamId",
+        "PlayersModel#getText",
+        "TeamBuilder#build",
+        "Credentials#equals",
+        "Player#setUuid",
+        "PlayerBuilder#setId",
+        "ColorPicker#onCreate",
+        "PlayerItem#setNumber",
+        "PlayerBuilder#setNumber",
+        "PlayerItem#setPosition",
+        "Player#setIsManager",
+        "CredentialsBuilder#build",
+        "InvitePlayers#onCreate",
+        "TeamBuilder#setName",
+        "PlayerBuilder#setNationality",
+        "Team#setName",
+        "LoginActivity#onCreate",
+        "TeamBuilder#setTeamId",
+        "StartActivity#onCreate",
+        "PlayerBuilder#setTeamId",
+        "Player#setId",
+        "Player#setNumber",
+        "MainActivity#onCreate"
+      ]
+    },
+    "TeamInfoFragment#toggleSaveDiscardButtons": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#toggleSaveDiscardButtons",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "Team#getFont": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getFont",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#shareImage": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#shareImage",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#getUserByUsername": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getUserByUsername",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "TeamBuilder#setMainColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setMainColor",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#addPlayer": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#addPlayer",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "RegisterActivity#onCreate"
+      ],
+      "children": [
+        "Team#getName",
+        "Player#getName"
+      ]
+    },
+    "TeamInfoModel#storeImageToFirebaseStorage": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#storeImageToFirebaseStorage",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoModel#handleResult"
+      ],
+      "children": [
+        "TeamInfoModel#getInputStream"
+      ]
+    },
+    "Authentication#authenticateUser": {
+      "parameters": {
+        "password": "String",
+        "credentials": "Credentials",
+        "listener": "OnAddUserListener",
+        "username": "String"
+      },
+      "name": "Authentication#authenticateUser",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Invitations#getUserId": {
+      "parameters": {},
+      "name": "Invitations#getUserId",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "InvitationListAdapter#onComplete",
+        "InvitationListAdapter#onClick"
+      ],
+      "children": []
+    },
+    "AboutFragment#newInstance": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater",
+        "param1": "String",
+        "param2": "String"
+      },
+      "name": "AboutFragment#newInstance",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "TeamInfoModel#loadImageFromFiresbase": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#loadImageFromFiresbase",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoModel#loadImage"
+      ],
+      "children": []
+    },
+    "Database#deleteAccount": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#deleteAccount",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "ColorPicker#setLayoutColor": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "envelope": "ColorEnvelope",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int"
+      },
+      "name": "ColorPicker#setLayoutColor",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "ColorPicker#onColorSelected"
+      ],
+      "children": []
+    },
+    "TeamInfoFragment#displayErrorToast": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#displayErrorToast",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "OnGetMultipleTeamsListener#onTeamsFilled": {
+      "parameters": {
+        "exception": "Exception",
+        "teams": "List<Team>"
+      },
+      "name": "OnGetMultipleTeamsListener#onTeamsFilled",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "FirestoreImpl#onComplete"
+      ],
+      "children": []
+    },
+    "PlayerItem#getGamerTag": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#getGamerTag",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Invitations#toString": {
+      "parameters": {},
+      "name": "Invitations#toString",
+      "recursive": "false",
+      "inComing": 18,
+      "outGoing": 0,
+      "numberOfCalls": 18,
+      "parents": [
+        "GenerateLineupFragment#getFormation",
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onItemSelected",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "GenerateLineupModel#saveImage",
+        "GenerateLineupModel#addPlayerFromInputField",
+        "AutocompleteAdapter#performFiltering"
+      ],
+      "children": []
+    },
+    "Player#getTeamId": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getTeamId",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "MainActivity#onTeamFilled",
+        "InvitationListAdapter#onClick",
+        "InvitationListAdapter#onComplete",
+        "PlayerInfoListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onClick"
+      ],
+      "children": []
+    },
+    "StartActivity#openGenerateLineupFragment": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#openGenerateLineupFragment",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "StartActivity#showGenerateLineupFragment"
+      ],
+      "children": []
+    },
+    "Database#addPlayer": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#addPlayer",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "RegisterActivity#onCreate"
+      ],
+      "children": []
+    },
+    "OnAddTeamListener#onTeamFilled": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnAddTeamListener#onTeamFilled",
+      "recursive": "false",
+      "inComing": 6,
+      "outGoing": 0,
+      "numberOfCalls": 6,
+      "parents": [
+        "FirestoreImpl#onComplete",
+        "FirestoreImpl#addTeam"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#build": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#build",
+      "recursive": "false",
+      "inComing": 10,
+      "outGoing": 0,
+      "numberOfCalls": 10,
+      "parents": [
+        "NotificationHandler#onMessageReceived",
+        "MainActivity#showScreen",
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam",
+        "GenerateLineupModel#getResponse",
+        "GenerateLineupModel#createLineupRequest",
+        "GenerateLineupModel#addPlayerFromInputField",
+        "Authentication#createUser",
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#addUserFcm": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#addUserFcm",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Database#getPlayerByUuid",
+        "FirestoreImpl#getPlayerByUuid"
+      ]
+    },
+    "MainActivity#getPlayer": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#getPlayer",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "InvitePlayers#onCreateView",
+        "ProfileFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "PlayersFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#storeBitMapInAppdata": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#storeBitMapInAppdata",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#createLineup"
+      ],
+      "children": []
+    },
+    "CredentialsBuilder#email": {
+      "parameters": {
+        "password": "String",
+        "email": "String"
+      },
+      "name": "CredentialsBuilder#email",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "Authentication#createUser",
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "MainActivity#getPlayersToInvite": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#getPlayersToInvite",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "InvitePlayers#onCreateView"
+      ],
+      "children": []
+    },
+    "OnUpdatePlayerListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnUpdatePlayerListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "AdminTeamListAdapter#getItemCount": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "AdminTeamListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "AdminTeamListAdapter#getItemCount",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Player#getNationality": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getNationality",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "Player#setPosition": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setPosition",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "PlayerItem#getImageUrl": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#getImageUrl",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "AutocompleteAdapter#getView"
+      ],
+      "children": []
+    },
+    "StartActivity#showGenerateLineupFragment": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#showGenerateLineupFragment",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "StartActivity#onCreate"
+      ],
+      "children": [
+        "StartActivity#openGenerateLineupFragment"
+      ]
+    },
+    "OnGetUserListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "credentials": "Credentials"
+      },
+      "name": "OnGetUserListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Lineup#setTeam": {
+      "parameters": {
+        "players": "List<Player>",
+        "formation": "String",
+        "team": "Team"
+      },
+      "name": "Lineup#setTeam",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onTeamFilled",
+        "InvitationListAdapter#onSuccess",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Database#addTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#addTeam",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onPlayerAdded",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setKit": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setKit",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "Player#getNumber": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getNumber",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setTeam": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setTeam",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onTeamFilled",
+        "InvitationListAdapter#onSuccess",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "PlayerItem#setUsername": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#setUsername",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Team#getLayout": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getLayout",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Team#toString": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#toString",
+      "recursive": "false",
+      "inComing": 18,
+      "outGoing": 0,
+      "numberOfCalls": 18,
+      "parents": [
+        "GenerateLineupFragment#getFormation",
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onItemSelected",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "GenerateLineupModel#saveImage",
+        "GenerateLineupModel#addPlayerFromInputField",
+        "AutocompleteAdapter#performFiltering"
+      ],
+      "children": []
+    },
+    "Database#getPlayerByUsername": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getPlayerByUsername",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Player#getName": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getName",
+      "recursive": "false",
+      "inComing": 25,
+      "outGoing": 0,
+      "numberOfCalls": 25,
+      "parents": [
+        "FirestoreImpl#addTeam",
+        "FirestoreImpl#updateTeam",
+        "FirestoreImpl#addPlayer",
+        "FirestoreImpl#updatePlayer",
+        "ProfileFragment#onCreateView",
+        "TeamInfoFragment#onTeamFilled",
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#displayTeamInfo",
+        "TeamModel#onTeamFilled",
+        "GenerateLineupModel#playerToPlayerItem",
+        "AdminTeamListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onClick",
+        "PlayerInfoListAdapter#onComplete"
+      ],
+      "children": []
+    },
+    "PlayerItem#setGamerTag": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#setGamerTag",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "FirestoreImpl#checkCredentials": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#checkCredentials",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Credentials#getEmail"
+      ]
+    },
+    "Database#updateTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#updateTeam",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#updateTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#updateTeam",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": [
+        "Team#getName",
+        "Player#getName"
+      ]
+    },
+    "Player#setTeam": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setTeam",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onTeamFilled",
+        "InvitationListAdapter#onSuccess",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Player#getPosition": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getPosition",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "AutocompleteAdapter#getView",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "TeamInfoModel#handleResult": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#handleResult",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": [
+        "TeamInfoModel#loadImageFromUrl",
+        "TeamInfoModel#storeImageToFirebaseStorage"
+      ]
+    },
+    "TeamInfoFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Team#setMainColor",
+        "TeamBuilder#setTeamLogo",
+        "TeamModel#getTeam",
+        "TeamBuilder#setBackground",
+        "Team#getName",
+        "Team#setFont",
+        "Player#setTeamId",
+        "Team#setBackground",
+        "Team#setFontColor",
+        "TeamInfoFragment#toggleSaveDiscardButtons",
+        "TeamBuilder#setMainColor",
+        "Invitations#toString",
+        "PlayerBuilder#build",
+        "MainActivity#getPlayer",
+        "TeamBuilder#setKit",
+        "Team#toString",
+        "Player#getName",
+        "Database#updateTeam",
+        "FirestoreImpl#updateTeam",
+        "TeamInfoModel#handleResult",
+        "Team#setManagerId",
+        "PlayerBuilder#setName",
+        "Player#getTeam",
+        "TeamInfoFragment#getPhotoPickerIntent",
+        "Team#setTeamId",
+        "PlayersModel#getText",
+        "TeamBuilder#build",
+        "Lineup#getTeam",
+        "Player#getId",
+        "Database#getTeam",
+        "TeamInfoFragment#makeBoxesVisible",
+        "Team#setGkKit",
+        "Team#setLanguage",
+        "TeamBuilder#setLayout",
+        "TeamBuilder#setGkKit",
+        "FirestoreImpl#updatePlayer",
+        "CredentialsBuilder#build",
+        "Team#setTeamLogo",
+        "Team#setSecondaryColor",
+        "TeamBuilder#setName",
+        "TeamBuilder#setFontColor",
+        "TeamInfoFragment#displayTeamInfo",
+        "Team#setName",
+        "Team#setKit",
+        "MainActivity#getTeam",
+        "FirestoreImpl#getTeam",
+        "TeamBuilder#setTeamId",
+        "TeamBuilder#setFont",
+        "PlayerBuilder#setTeamId",
+        "TeamBuilder#setLanguage",
+        "TeamBuilder#setManagerId",
+        "Database#updatePlayer",
+        "TeamBuilder#setSecondaryColor",
+        "Team#setLayout"
+      ]
+    },
+    "GenerateLineupModel#saveImage": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#saveImage",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupFragment#onCreateView"
+      ],
+      "children": [
+        "Invitations#toString",
+        "Team#toString"
+      ]
+    },
+    "OnGetPlayerListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "player": "Player"
+      },
+      "name": "OnGetPlayerListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "ProfileFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "ProfileFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Team#getName",
+        "MainActivity#getPlayer",
+        "Player#getName"
+      ]
+    },
+    "Team#setManagerId": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setManagerId",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setName": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setName",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Player#getTeam": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getTeam",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#getTeam"
+      ],
+      "children": []
+    },
+    "Player#setNationality": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setNationality",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "TeamInfoFragment#getPhotoPickerIntent": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#getPhotoPickerIntent",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setPosition": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setPosition",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Lineup#setPlayers": {
+      "parameters": {
+        "players": "List<Player>",
+        "formation": "String",
+        "team": "Team"
+      },
+      "name": "Lineup#setPlayers",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Team#setTeamId": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setTeamId",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "Team#getLanguage": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getLanguage",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "PlayersModel#getText": {
+      "parameters": {},
+      "name": "PlayersModel#getText",
+      "recursive": "false",
+      "inComing": 10,
+      "outGoing": 0,
+      "numberOfCalls": 10,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "TeamBuilder#build": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#build",
+      "recursive": "false",
+      "inComing": 10,
+      "outGoing": 0,
+      "numberOfCalls": 10,
+      "parents": [
+        "NotificationHandler#onMessageReceived",
+        "MainActivity#showScreen",
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam",
+        "GenerateLineupModel#getResponse",
+        "GenerateLineupModel#createLineupRequest",
+        "GenerateLineupModel#addPlayerFromInputField",
+        "Authentication#createUser",
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "StartActivity#openLoginActivity": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#openLoginActivity",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "StartActivity#showHompageOnClick"
+      ],
+      "children": []
+    },
+    "PlayerItem#getUsername": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#getUsername",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "AutocompleteAdapter#getView",
+        "AutocompleteAdapter#performFiltering",
+        "AutocompleteAdapter#convertResultToString"
+      ],
+      "children": []
+    },
+    "AdminTeamListAdapter#onCreateViewHolder": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "AdminTeamListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "AdminTeamListAdapter#onCreateViewHolder",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Lineup#getTeam": {
+      "parameters": {
+        "players": "List<Player>",
+        "formation": "String",
+        "team": "Team"
+      },
+      "name": "Lineup#getTeam",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#getTeam"
+      ],
+      "children": []
+    },
+    "PlayersFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "PlayersFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "MainActivity#getPlayer",
+        "Lineup#getPlayers",
+        "MainActivity#getPlayers"
+      ]
+    },
+    "Credentials#equals": {
+      "parameters": {
+        "credentials": "Credentials"
+      },
+      "name": "Credentials#equals",
+      "recursive": "false",
+      "inComing": 7,
+      "outGoing": 0,
+      "numberOfCalls": 7,
+      "parents": [
+        "Credentials#equals",
+        "TeamInfoFragment#onTeamFilled",
+        "RegisterActivity#onPlayerAdded",
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": [
+        "Credentials#equals"
+      ]
+    },
+    "Database#createAccount": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#createAccount",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "Authentication#createUser"
+      ],
+      "children": []
+    },
+    "Player#getId": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getId",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "MainActivity#onPlayerFilled",
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "LoginModel#isFieldsEmpty": {
+      "parameters": {
+        "password": "String",
+        "email": "String"
+      },
+      "name": "LoginModel#isFieldsEmpty",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "LoginActivity#onCreate"
+      ],
+      "children": []
+    },
+    "LineupModel#generateLineup": {
+      "parameters": {
+        "players": "Player[]",
+        "team": "Team"
+      },
+      "name": "LineupModel#generateLineup",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Database#getTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getTeam",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#getTeam"
+      ],
+      "children": []
+    },
+    "OnGetPlayerListener#onPlayerFilled": {
+      "parameters": {
+        "exception": "Exception",
+        "player": "Player"
+      },
+      "name": "OnGetPlayerListener#onPlayerFilled",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "FirestoreImpl#onComplete"
+      ],
+      "children": []
+    },
+    "AutocompleteAdapter#getView": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "position": "int",
+        "convertView": "View"
+      },
+      "name": "AutocompleteAdapter#getView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "PlayerItem#getImageUrl",
+        "Player#getPosition",
+        "PlayerItem#getUsername",
+        "PlayerItem#getPosition"
+      ]
+    },
+    "FcmToken#getTokenValue": {
+      "parameters": {
+        "tokenValue": "String"
+      },
+      "name": "FcmToken#getTokenValue",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "TeamInfoModel#getColorPickerIntent": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#getColorPickerIntent",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "TeamInfoFragment#makeBoxesVisible": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#makeBoxesVisible",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onTeamFilled"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#getPlayerFromInputFields": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#getPlayerFromInputFields",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#createLineup"
+      ],
+      "children": [
+        "GenerateLineupModel#addPlayerFromInputField"
+      ]
+    },
+    "Lineup#setFormation": {
+      "parameters": {
+        "players": "List<Player>",
+        "formation": "String",
+        "team": "Team"
+      },
+      "name": "Lineup#setFormation",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "GenerateLineupFragment#getFormation": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "GenerateLineupFragment#getFormation",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "GenerateLineupFragment#onItemSelected"
+      ],
+      "children": [
+        "Invitations#toString",
+        "Team#toString"
+      ]
+    },
+    "OnAddPlayerListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnAddPlayerListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Database#getPlayersByTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getPlayersByTeam",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "MainActivity#onCreate",
+        "MainActivity#onTeamFilled"
+      ],
+      "children": []
+    },
+    "OnAddPlayerListener#onPlayerAdded": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnAddPlayerListener#onPlayerAdded",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "FirestoreImpl#onComplete"
+      ],
+      "children": []
+    },
+    "Player#setUuid": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setUuid",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "RegisterActivity#onCreate"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setId": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setId",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "RegisterActivity#onCreate"
+      ],
+      "children": []
+    },
+    "ColorPicker#onCreate": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "envelope": "ColorEnvelope",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int"
+      },
+      "name": "ColorPicker#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "RegisterActivity#onCreate",
+        "ColorPicker#onCreate",
+        "InvitePlayers#onCreate",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate"
+      ]
+    },
+    "TeamInfoModel#getInputStream": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#getInputStream",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoModel#storeImageToFirebaseStorage"
+      ],
+      "children": []
+    },
+    "Team#setGkKit": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setGkKit",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "PlayerItem#getPosition": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#getPosition",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "AutocompleteAdapter#getView",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "Team#getGkKit": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getGkKit",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "PlayerInfoListAdapter#onCreateViewHolder": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "PlayerInfoListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "PlayerInfoListAdapter#onCreateViewHolder",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "PlayerItem#setNumber": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#setNumber",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Team#setLanguage": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setLanguage",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setNumber": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setNumber",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setKitStyle": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setKitStyle",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#onItemSelected"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#addAutocomplete": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#addAutocomplete",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#loadPlayerDropdown"
+      ],
+      "children": []
+    },
+    "Invitations#getTeamId": {
+      "parameters": {},
+      "name": "Invitations#getTeamId",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "MainActivity#onTeamFilled",
+        "InvitationListAdapter#onClick",
+        "InvitationListAdapter#onComplete",
+        "PlayerInfoListAdapter#onBindViewHolder",
+        "PlayerInfoListAdapter#onClick"
+      ],
+      "children": []
+    },
+    "Team#getKitStyle": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getKitStyle",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "PlayerItem#setPosition": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#setPosition",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Authentication#deleteUser": {
+      "parameters": {
+        "password": "String",
+        "credentials": "Credentials",
+        "listener": "OnAddUserListener",
+        "username": "String"
+      },
+      "name": "Authentication#deleteUser",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Database#deleteAccount",
+        "PlayerBuilder#build",
+        "CredentialsBuilder#email",
+        "TeamBuilder#build",
+        "CredentialsBuilder#password",
+        "CredentialsBuilder#build",
+        "FirestoreImpl#deleteAccount"
+      ]
+    },
+    "FirestoreImpl#getPlayerByUsername": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getPlayerByUsername",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "PlayerBuilder#setAvatar": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setAvatar",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Database#getPlayersToInvite": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getPlayersToInvite",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "InvitePlayers#onCreateView"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setLayout": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setLayout",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onItemSelected",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setGkKit": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setGkKit",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "Player#getIsManager": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getIsManager",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "GenerateLineupModel#loadPlayerDropdown": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#loadPlayerDropdown",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupFragment#onCreateView"
+      ],
+      "children": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "GenerateLineupModel#addAutocomplete",
+        "Lineup#getPlayers",
+        "MainActivity#getPlayers"
+      ]
+    },
+    "TeamInfoModel#loadImage": {
+      "parameters": {
+        "result": "ActivityResult",
+        "image": "RequestBuilder<Drawable>",
+        "imageName": "String",
+        "data": "Intent",
+        "color": "String",
+        "imageString": "String",
+        "imageView": "ImageView",
+        "type": "String",
+        "uri": "Uri"
+      },
+      "name": "TeamInfoModel#loadImage",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": [
+        "TeamInfoModel#loadImageFromUrl",
+        "TeamInfoModel#loadImageFromFiresbase"
+      ]
+    },
+    "TeamInfoFragment#onDestroyView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#onDestroyView",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onDestroyView",
+        "ProfileFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView"
+      ],
+      "children": [
+        "ProfileFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "GenerateLineupFragment#onDestroyView"
+      ]
+    },
+    "FirestoreImpl#updatePlayer": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#updatePlayer",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": [
+        "Team#getName",
+        "Player#getName"
+      ]
+    },
+    "CredentialsBuilder#password": {
+      "parameters": {
+        "password": "String",
+        "email": "String"
+      },
+      "name": "CredentialsBuilder#password",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "Authentication#createUser",
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "InvitationListAdapter#onCreateViewHolder": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "InvitationListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "InvitationListAdapter#onCreateViewHolder",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "MainActivity#onSupportNavigateUp": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#onSupportNavigateUp",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "MainActivity#onSupportNavigateUp"
+      ],
+      "children": [
+        "MainActivity#onSupportNavigateUp"
+      ]
+    },
+    "FirestoreImpl#createAccount": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#createAccount",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "Authentication#createUser"
+      ],
+      "children": [
+        "Credentials#getEmail"
+      ]
+    },
+    "Database#getPlayerByUuid": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getPlayerByUuid",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "FirestoreImpl#addUserFcm",
+        "MainActivity#onCreate"
+      ],
+      "children": []
+    },
+    "PlayerItem#getNationality": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#getNationality",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "Player#getUuid": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#getUuid",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "FirestoreImpl#onComplete",
+        "PlayerInfoListAdapter#onClick"
+      ],
+      "children": []
+    },
+    "Database#addUserFcm": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#addUserFcm",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Player#setIsManager": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setIsManager",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "AdminTeamListAdapter#onBindViewHolder": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "AdminTeamListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "AdminTeamListAdapter#onBindViewHolder",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "Team#getName",
+        "Player#getName",
+        "Team#getManagerId"
+      ]
+    },
+    "CredentialsBuilder#build": {
+      "parameters": {
+        "password": "String",
+        "email": "String"
+      },
+      "name": "CredentialsBuilder#build",
+      "recursive": "false",
+      "inComing": 10,
+      "outGoing": 0,
+      "numberOfCalls": 10,
+      "parents": [
+        "NotificationHandler#onMessageReceived",
+        "MainActivity#showScreen",
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam",
+        "GenerateLineupModel#getResponse",
+        "GenerateLineupModel#createLineupRequest",
+        "GenerateLineupModel#addPlayerFromInputField",
+        "Authentication#createUser",
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#getPlayersByTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getPlayersByTeam",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "MainActivity#onCreate",
+        "MainActivity#onTeamFilled"
+      ],
+      "children": []
+    },
+    "InboxFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "InboxFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "FcmToken#setTokenValue": {
+      "parameters": {
+        "tokenValue": "String"
+      },
+      "name": "FcmToken#setTokenValue",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "OnGetMultipleTeamsListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "teams": "List<Team>"
+      },
+      "name": "OnGetMultipleTeamsListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "GenerateLineupFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "GenerateLineupFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "GenerateLineupModel#addInputFields",
+        "TeamModel#getTeam",
+        "GenerateLineupModel#setActivity",
+        "GenerateLineupModel#shareImage",
+        "GenerateLineupModel#saveImage",
+        "Player#getTeam",
+        "Lineup#getTeam",
+        "Database#getTeam",
+        "GenerateLineupFragment#getFormation",
+        "GenerateLineupModel#loadPlayerDropdown",
+        "GenerateLineupModel#createLineup",
+        "MainActivity#getTeam",
+        "FirestoreImpl#getTeam",
+        "Lineup#getFormation",
+        "GenerateLineupModel#setHints"
+      ]
+    },
+    "Team#setTeamLogo": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setTeamLogo",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "InvitePlayers#onCreate": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "InvitePlayers#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "RegisterActivity#onCreate",
+        "ColorPicker#onCreate",
+        "InvitePlayers#onCreate",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate"
+      ]
+    },
+    "Team#setSecondaryColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setSecondaryColor",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setName": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setName",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#createLineup": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#createLineup",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupFragment#onCreateView"
+      ],
+      "children": [
+        "GenerateLineupModel#createLineupRequest",
+        "GenerateLineupModel#getBitmapFromResponse",
+        "GenerateLineupModel#storeBitMapInAppdata",
+        "GenerateLineupModel#getPlayerFromInputFields",
+        "GenerateLineupModel#getResponse"
+      ]
+    },
+    "PlayerBuilder#setNationality": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setNationality",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Utils#getJsonFromAssets": {
+      "parameters": {
+        "fileName": "String",
+        "context": "Context"
+      },
+      "name": "Utils#getJsonFromAssets",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "MainActivity#onCreate",
+        "GenerateLineupModel#setHints"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#getPlayerByUuid": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getPlayerByUuid",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "FirestoreImpl#addUserFcm",
+        "MainActivity#onCreate"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setFontColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setFontColor",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "AdminFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "AdminFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "FirestoreImpl#getAllTeams",
+        "Database#getAllTeams"
+      ]
+    },
+    "TeamInfoFragment#displayTeamInfo": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "visibility": "int",
+        "kit": "String",
+        "team": "Team",
+        "message": "String",
+        "inflater": "LayoutInflater"
+      },
+      "name": "TeamInfoFragment#displayTeamInfo",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onTeamFilled"
+      ],
+      "children": [
+        "Team#getMainColor",
+        "Team#getBackground",
+        "Team#getFontColor",
+        "Team#getName",
+        "Team#getFont",
+        "TeamInfoFragment#displayErrorToast",
+        "Player#getName",
+        "TeamInfoModel#getColorPickerIntent",
+        "Team#getGkKit",
+        "TeamInfoModel#loadImage",
+        "Team#getKit",
+        "Team#getManagerId",
+        "Team#getSecondaryColor",
+        "Team#getTeamLogo"
+      ]
+    },
+    "Team#setKitStyle": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setKitStyle",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#onItemSelected"
+      ],
+      "children": []
+    },
+    "MainActivity#setPlayer": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#setPlayer",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Team#setName": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setName",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Team#setKit": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setKit",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "MainActivity#getTeam": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#getTeam",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#getTeam"
+      ],
+      "children": []
+    },
+    "LoginActivity#onCreate": {
+      "parameters": {
+        "savedInstanceState": "Bundle"
+      },
+      "name": "LoginActivity#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "LoginModel#signIn",
+        "RegisterActivity#onCreate",
+        "Invitations#toString",
+        "Team#toString",
+        "PlayersModel#getText",
+        "LoginModel#isFieldsEmpty",
+        "ColorPicker#onCreate",
+        "InvitePlayers#onCreate",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate"
+      ]
+    },
+    "Lineup#getPlayers": {
+      "parameters": {
+        "players": "List<Player>",
+        "formation": "String",
+        "team": "Team"
+      },
+      "name": "Lineup#getPlayers",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "PlayersFragment#onCreateView",
+        "GenerateLineupModel#loadPlayerDropdown"
+      ],
+      "children": []
+    },
+    "OnGetTeamListener#onTeamFilled": {
+      "parameters": {
+        "exception": "Exception",
+        "teams": "Team"
+      },
+      "name": "OnGetTeamListener#onTeamFilled",
+      "recursive": "false",
+      "inComing": 6,
+      "outGoing": 0,
+      "numberOfCalls": 6,
+      "parents": [
+        "FirestoreImpl#onComplete",
+        "FirestoreImpl#addTeam"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#deleteAccount": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#deleteAccount",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "Authentication#deleteUser"
+      ],
+      "children": []
+    },
+    "FirestoreImpl#getTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#getTeam",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#getTeam"
+      ],
+      "children": []
+    },
+    "Authentication#createUser": {
+      "parameters": {
+        "password": "String",
+        "credentials": "Credentials",
+        "listener": "OnAddUserListener",
+        "username": "String"
+      },
+      "name": "Authentication#createUser",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "PlayerBuilder#build",
+        "CredentialsBuilder#email",
+        "TeamBuilder#build",
+        "Database#createAccount",
+        "CredentialsBuilder#password",
+        "FirestoreImpl#createAccount",
+        "CredentialsBuilder#build"
+      ]
+    },
+    "InvitationListAdapter#getItemCount": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "viewType": "int",
+        "holder": "InvitationListAdapter.ViewHolder",
+        "position": "int"
+      },
+      "name": "InvitationListAdapter#getItemCount",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "TeamBuilder#setTeamId": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setTeamId",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "FcmToken#getToken": {
+      "parameters": {
+        "tokenValue": "String"
+      },
+      "name": "FcmToken#getToken",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "FirestoreImpl#onPlayerFilled"
+      ],
+      "children": []
+    },
+    "OnAddUserListener#onUserAdded": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnAddUserListener#onUserAdded",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "FirestoreImpl#onComplete"
+      ],
+      "children": []
+    },
+    "Team#getKit": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getKit",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "AutocompleteAdapter#getFilter": {
+      "parameters": {
+        "parent": "ViewGroup",
+        "position": "int",
+        "convertView": "View"
+      },
+      "name": "AutocompleteAdapter#getFilter",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Database#getTeamByPlayerId": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#getTeamByPlayerId",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "MainActivity#onPlayerFilled"
+      ],
+      "children": []
+    },
+    "MainActivity#getPlayers": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#getPlayers",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "PlayersFragment#onCreateView",
+        "GenerateLineupModel#loadPlayerDropdown"
+      ],
+      "children": []
+    },
+    "InvitePlayers#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "InvitePlayers#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": [
+        "FirestoreImpl#getPlayersToInvite",
+        "MainActivity#getPlayer",
+        "MainActivity#getPlayersToInvite",
+        "Database#getPlayersToInvite"
+      ]
+    },
+    "StartActivity#onCreate": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "registerBtn": "Button",
+        "data": "Intent",
+        "resultCode": "int",
+        "requestCode": "int",
+        "databaseLoginBtn": "Button",
+        "sandboxBtn": "Button"
+      },
+      "name": "StartActivity#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "StartActivity#showHompageOnClick",
+        "StartActivity#showRegisterPageOnClick",
+        "RegisterActivity#onCreate",
+        "StartActivity#showGenerateLineupFragment",
+        "ColorPicker#onCreate",
+        "InvitePlayers#onCreate",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate"
+      ]
+    },
+    "PlayersFragment#onDestroyView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "PlayersFragment#onDestroyView",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onDestroyView",
+        "ProfileFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView"
+      ],
+      "children": [
+        "ProfileFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "GenerateLineupFragment#onDestroyView"
+      ]
+    },
+    "TeamBuilder#setFont": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setFont",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onItemSelected",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "PlayerBuilder#setTeamId": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "name": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "avatar": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "PlayerBuilder#setTeamId",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "RegisterActivity#onCreate",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "TeamBuilder#setLanguage": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setLanguage",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "OnAddUserListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnAddUserListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "GenerateLineupModel#getResponse": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#getResponse",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "GenerateLineupModel#createLineup"
+      ],
+      "children": [
+        "PlayerBuilder#build",
+        "TeamBuilder#build",
+        "CredentialsBuilder#build"
+      ]
+    },
+    "Team#getManagerId": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getManagerId",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo",
+        "AdminTeamListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "NotificationHandler#onMessageReceived": {
+      "parameters": {
+        "message": "RemoteMessage"
+      },
+      "name": "NotificationHandler#onMessageReceived",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "NotificationHandler#onMessageReceived"
+      ],
+      "children": [
+        "PlayerBuilder#build",
+        "TeamBuilder#build",
+        "CredentialsBuilder#build",
+        "NotificationHandler#onMessageReceived"
+      ]
+    },
+    "Lineup#getFormation": {
+      "parameters": {
+        "players": "List<Player>",
+        "formation": "String",
+        "team": "Team"
+      },
+      "name": "Lineup#getFormation",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "GenerateLineupFragment#onItemSelected"
+      ],
+      "children": []
+    },
+    "OnAddTeamListener#onError": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnAddTeamListener#onError",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "FirestoreImpl#addTeam": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "FirestoreImpl#addTeam",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onPlayerAdded",
+        "TeamModel#addTeam"
+      ],
+      "children": [
+        "Team#getName",
+        "OnAddTeamListener#onTeamFilled",
+        "Player#getName",
+        "OnGetTeamListener#onTeamFilled",
+        "OnGetMultiplePlayers#onTeamFilled"
+      ]
+    },
+    "Invitations#getFromUserId": {
+      "parameters": {},
+      "name": "Invitations#getFromUserId",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "TeamBuilder#setManagerId": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setManagerId",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "Player#setId": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setId",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "RegisterActivity#onCreate"
+      ],
+      "children": []
+    },
+    "Credentials#getPassword": {
+      "parameters": {
+        "credentials": "Credentials"
+      },
+      "name": "Credentials#getPassword",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Database#checkCredentials": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#checkCredentials",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "Database#updatePlayer": {
+      "parameters": {
+        "teamName": "String",
+        "searchString": "String",
+        "credentials": "Credentials",
+        "teamId": "String",
+        "listener": "OnGetMultipleTeamsListener",
+        "team": "Team",
+        "uuid": "String",
+        "username": "String",
+        "playerId": "String",
+        "player": "Player"
+      },
+      "name": "Database#updatePlayer",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#onCreateView"
+      ],
+      "children": []
+    },
+    "PlayerItem#getNumber": {
+      "parameters": {
+        "gamerTag": "String",
+        "number": "Integer",
+        "nationality": "String",
+        "imageUrl": "String",
+        "position": "String",
+        "username": "String"
+      },
+      "name": "PlayerItem#getNumber",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupModel#playerToPlayerItem",
+        "PlayerInfoListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "OnGetUserListener#onUserFilled": {
+      "parameters": {
+        "exception": "Exception",
+        "credentials": "Credentials"
+      },
+      "name": "OnGetUserListener#onUserFilled",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "FirestoreImpl#onComplete"
+      ],
+      "children": []
+    },
+    "GenerateLineupModel#setHints": {
+      "parameters": {
+        "playerItems": "List<PlayerItem>",
+        "request": "Request",
+        "activity": "MainActivity",
+        "players": "List<Player>",
+        "imageView": "ImageView",
+        "editText": "AutoCompleteTextView",
+        "formationStr": "String",
+        "team": "Team",
+        "formation": "String",
+        "response": "Response",
+        "bitmap": "Bitmap",
+        "context": "Context",
+        "autoCompleteTextView": "AutoCompleteTextView",
+        "player": "Player"
+      },
+      "name": "GenerateLineupModel#setHints",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "GenerateLineupFragment#onCreateView",
+        "GenerateLineupFragment#onItemSelected"
+      ],
+      "children": [
+        "Utils#getJsonFromAssets"
+      ]
+    },
+    "TeamBuilder#setSecondaryColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "TeamBuilder#setSecondaryColor",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    },
+    "AboutFragment#onCreateView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater",
+        "param1": "String",
+        "param2": "String"
+      },
+      "name": "AboutFragment#onCreateView",
+      "recursive": "false",
+      "inComing": 0,
+      "outGoing": 0,
+      "numberOfCalls": 0,
+      "parents": [],
+      "children": []
+    },
+    "OnUpdatePlayerListener#onPlayerAdded": {
+      "parameters": {
+        "exception": "Exception",
+        "added": "Boolean"
+      },
+      "name": "OnUpdatePlayerListener#onPlayerAdded",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "FirestoreImpl#onComplete"
+      ],
+      "children": []
+    },
+    "Team#getSecondaryColor": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getSecondaryColor",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "MainActivity#showScreen": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#showScreen",
+      "recursive": "false",
+      "inComing": 4,
+      "outGoing": 0,
+      "numberOfCalls": 4,
+      "parents": [
+        "MainActivity#onTeamFilled",
+        "MainActivity#onError",
+        "MainActivity#onCreate"
+      ],
+      "children": [
+        "PlayerBuilder#build",
+        "TeamBuilder#build",
+        "CredentialsBuilder#build"
+      ]
+    },
+    "OnGetMultiplePlayers#onTeamFilled": {
+      "parameters": {
+        "exception": "Exception",
+        "players": "List<Player>"
+      },
+      "name": "OnGetMultiplePlayers#onTeamFilled",
+      "recursive": "false",
+      "inComing": 6,
+      "outGoing": 0,
+      "numberOfCalls": 6,
+      "parents": [
+        "FirestoreImpl#onComplete",
+        "FirestoreImpl#addTeam"
+      ],
+      "children": []
+    },
+    "Invitations#getFromUsername": {
+      "parameters": {},
+      "name": "Invitations#getFromUsername",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "InvitationListAdapter#onBindViewHolder"
+      ],
+      "children": []
+    },
+    "Player#setNumber": {
+      "parameters": {
+        "number": "int",
+        "nationality": "String",
+        "teamId": "String",
+        "isManager": "boolean",
+        "position": "String",
+        "team": "int",
+        "id": "String",
+        "uuid": "String"
+      },
+      "name": "Player#setNumber",
+      "recursive": "false",
+      "inComing": 2,
+      "outGoing": 0,
+      "numberOfCalls": 2,
+      "parents": [
+        "RegisterActivity#onCreate",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "Team#getTeamLogo": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#getTeamLogo",
+      "recursive": "false",
+      "inComing": 1,
+      "outGoing": 0,
+      "numberOfCalls": 1,
+      "parents": [
+        "TeamInfoFragment#displayTeamInfo"
+      ],
+      "children": []
+    },
+    "MainActivity#onCreate": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#onCreate",
+      "recursive": "false",
+      "inComing": 8,
+      "outGoing": 0,
+      "numberOfCalls": 8,
+      "parents": [
+        "InboxFragment#onCreate",
+        "InvitePlayers#onCreate",
+        "ColorPicker#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#onCreate",
+        "RegisterActivity#onCreate",
+        "LoginActivity#onCreate",
+        "AboutFragment#onCreate"
+      ],
+      "children": [
+        "AboutFragment#onCreate",
+        "InboxFragment#onCreate",
+        "RegisterActivity#onCreate",
+        "Database#getPlayersByTeam",
+        "ColorPicker#onCreate",
+        "Database#getPlayerByUuid",
+        "FirestoreImpl#getPlayersByTeam",
+        "InvitePlayers#onCreate",
+        "Utils#getJsonFromAssets",
+        "FirestoreImpl#getPlayerByUuid",
+        "LoginActivity#onCreate",
+        "StartActivity#onCreate",
+        "MainActivity#showScreen",
+        "MainActivity#onCreate"
+      ]
+    },
+    "AdminFragment#onDestroyView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "AdminFragment#onDestroyView",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onDestroyView",
+        "ProfileFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView"
+      ],
+      "children": [
+        "ProfileFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "GenerateLineupFragment#onDestroyView"
+      ]
+    },
+    "MainActivity#setTeam": {
+      "parameters": {
+        "savedInstanceState": "Bundle",
+        "team": "Team",
+        "player": "Player"
+      },
+      "name": "MainActivity#setTeam",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onTeamFilled",
+        "InvitationListAdapter#onSuccess",
+        "GenerateLineupModel#addPlayerFromInputField"
+      ],
+      "children": []
+    },
+    "GenerateLineupFragment#onDestroyView": {
+      "parameters": {
+        "container": "ViewGroup",
+        "savedInstanceState": "Bundle",
+        "inflater": "LayoutInflater"
+      },
+      "name": "GenerateLineupFragment#onDestroyView",
+      "recursive": "false",
+      "inComing": 5,
+      "outGoing": 0,
+      "numberOfCalls": 5,
+      "parents": [
+        "GenerateLineupFragment#onDestroyView",
+        "ProfileFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView"
+      ],
+      "children": [
+        "ProfileFragment#onDestroyView",
+        "TeamInfoFragment#onDestroyView",
+        "PlayersFragment#onDestroyView",
+        "AdminFragment#onDestroyView",
+        "GenerateLineupFragment#onDestroyView"
+      ]
+    },
+    "Team#setLayout": {
+      "parameters": {
+        "teamLogo": "String",
+        "language": "String",
+        "managerId": "String",
+        "gkKit": "String",
+        "layout": "String",
+        "mainColor": "String",
+        "background": "String",
+        "teamId": "String",
+        "kit": "String",
+        "name": "String",
+        "kitStyle": "String",
+        "fontColor": "String",
+        "secondaryColor": "String",
+        "font": "String"
+      },
+      "name": "Team#setLayout",
+      "recursive": "false",
+      "inComing": 3,
+      "outGoing": 0,
+      "numberOfCalls": 3,
+      "parents": [
+        "TeamInfoFragment#onCreateView",
+        "TeamInfoFragment#onItemSelected",
+        "TeamModel#addTeam"
+      ],
+      "children": []
+    }
+  }
+}
