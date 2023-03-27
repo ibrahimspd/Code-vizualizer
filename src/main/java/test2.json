@@ -1,0 +1,913 @@
+{
+  "myapplication": {
+    "database": {
+      "listeners": {
+        "user": {},
+        "team": {
+          "OnAddTeamListener.java": {
+            "name": "OnAddTeamListener",
+            "class": {
+              "id": "b6cead3e-173d-43e4-bb7e-855447df4ef0",
+              "functions": {
+                "onError": {
+                  "id": "OnAddTeamListener#onError"
+                },
+                "onTeamFilled": {
+                  "id": "OnAddTeamListener#onTeamFilled"
+                }
+              },
+              "fileName": "myapplication/database/listeners/team/OnAddTeamListener.java",
+              "name": "OnAddTeamListener"
+            }
+          },
+          "OnGetTeamListener.java": {
+            "name": "OnGetTeamListener",
+            "class": {
+              "id": "e1322e5a-de19-4c52-99bf-42bf4bd7685a",
+              "functions": {
+                "onError": {
+                  "id": "OnGetTeamListener#onError"
+                },
+                "onTeamFilled": {
+                  "id": "OnGetTeamListener#onTeamFilled"
+                }
+              },
+              "fileName": "myapplication/database/listeners/team/OnGetTeamListener.java",
+              "name": "OnGetTeamListener"
+            }
+          }
+        },
+        "player": {
+          "OnUpdatePlayerListener.java": {
+            "name": "OnUpdatePlayerListener",
+            "class": {
+              "id": "2aa64220-2d78-488f-9470-99c2a1cf252c",
+              "functions": {
+                "onError": {
+                  "id": "OnUpdatePlayerListener#onError"
+                },
+                "onPlayerAdded": {
+                  "id": "OnUpdatePlayerListener#onPlayerAdded"
+                }
+              },
+              "fileName": "myapplication/database/listeners/player/OnUpdatePlayerListener.java",
+              "name": "OnUpdatePlayerListener"
+            }
+          },
+          "OnGetPlayerListener.java": {
+            "name": "OnGetPlayerListener",
+            "class": {
+              "id": "dfa6bf9b-4849-40ac-b5ef-bff65a1460c0",
+              "functions": {
+                "onError": {
+                  "id": "OnGetPlayerListener#onError"
+                },
+                "onPlayerFilled": {
+                  "id": "OnGetPlayerListener#onPlayerFilled"
+                }
+              },
+              "fileName": "myapplication/database/listeners/player/OnGetPlayerListener.java",
+              "name": "OnGetPlayerListener"
+            }
+          },
+          "OnGetMultiplePlayers.java": {
+            "name": "OnGetMultiplePlayers",
+            "class": {
+              "id": "bb26d738-db92-4ad3-bcb9-514ffc9a441f",
+              "functions": {
+                "onError": {
+                  "id": "OnGetMultiplePlayers#onError"
+                },
+                "onTeamFilled": {
+                  "id": "OnGetMultiplePlayers#onTeamFilled"
+                }
+              },
+              "fileName": "myapplication/database/listeners/player/OnGetMultiplePlayers.java",
+              "name": "OnGetMultiplePlayers"
+            }
+          }
+        }
+      }
+    },
+    "entites": {
+      "Team.java": {
+        "name": "TeamBuilder",
+        "class": {
+          "id": "c4023735-0184-4069-bd31-d23ef3d0f6a3",
+          "functions": {
+            "setName": {
+              "id": "TeamBuilder#setName"
+            },
+            "setTeamId": {
+              "id": "TeamBuilder#setTeamId"
+            },
+            "setManagerId": {
+              "id": "TeamBuilder#setManagerId"
+            },
+            "setKitStyle": {
+              "id": "TeamBuilder#setKitStyle"
+            },
+            "setLayout": {
+              "id": "TeamBuilder#setLayout"
+            },
+            "setBackground": {
+              "id": "TeamBuilder#setBackground"
+            },
+            "setSecondaryColor": {
+              "id": "TeamBuilder#setSecondaryColor"
+            },
+            "setTeamLogo": {
+              "id": "TeamBuilder#setTeamLogo"
+            },
+            "build": {
+              "id": "TeamBuilder#build"
+            },
+            "setKit": {
+              "id": "TeamBuilder#setKit"
+            },
+            "setMainColor": {
+              "id": "TeamBuilder#setMainColor"
+            },
+            "setGkKit": {
+              "id": "TeamBuilder#setGkKit"
+            },
+            "setFontColor": {
+              "id": "TeamBuilder#setFontColor"
+            },
+            "setFont": {
+              "id": "TeamBuilder#setFont"
+            },
+            "setLanguage": {
+              "id": "TeamBuilder#setLanguage"
+            }
+          },
+          "fileName": "myapplication/entites/Team.java",
+          "name": "TeamBuilder"
+        }
+      },
+      "Credentials.java": {
+        "name": "Credentials",
+        "class": {
+          "id": "1b05b649-1858-4e6a-91f6-a6f857ef011a",
+          "functions": {
+            "getPassword": {
+              "id": "Credentials#getPassword"
+            },
+            "equals": {
+              "id": "Credentials#equals"
+            },
+            "getEmail": {
+              "id": "Credentials#getEmail"
+            }
+          },
+          "fileName": "myapplication/entites/Credentials.java",
+          "name": "Credentials"
+        }
+      },
+      "name": "PlayerBuilder",
+      "class": {
+        "id": "c194aad9-6d6f-43cd-a37f-7548be60a0ad",
+        "functions": {
+          "setName": {
+            "id": "PlayerBuilder#setName"
+          },
+          "setTeamId": {
+            "id": "PlayerBuilder#setTeamId"
+          },
+          "setAvatar": {
+            "id": "PlayerBuilder#setAvatar"
+          },
+          "build": {
+            "id": "PlayerBuilder#build"
+          },
+          "setId": {
+            "id": "PlayerBuilder#setId"
+          },
+          "setIsManager": {
+            "id": "PlayerBuilder#setIsManager"
+          },
+          "setUuid": {
+            "id": "PlayerBuilder#setUuid"
+          },
+          "setPosition": {
+            "id": "PlayerBuilder#setPosition"
+          },
+          "setNationality": {
+            "id": "PlayerBuilder#setNationality"
+          },
+          "setNumber": {
+            "id": "PlayerBuilder#setNumber"
+          },
+          "setTeam": {
+            "id": "PlayerBuilder#setTeam"
+          }
+        },
+        "fileName": "myapplication/entites/Player.java",
+        "name": "PlayerBuilder"
+      },
+      "Lineup.java": {
+        "name": "Lineup",
+        "class": {
+          "id": "c05d2574-2d07-4f38-a201-e9b82cf49ed0",
+          "functions": {
+            "setPlayers": {
+              "id": "Lineup#setPlayers"
+            },
+            "setFormation": {
+              "id": "Lineup#setFormation"
+            },
+            "getTeam": {
+              "id": "Lineup#getTeam"
+            },
+            "getFormation": {
+              "id": "Lineup#getFormation"
+            },
+            "getPlayers": {
+              "id": "Lineup#getPlayers"
+            },
+            "setTeam": {
+              "id": "Lineup#setTeam"
+            }
+          },
+          "fileName": "myapplication/entites/Lineup.java",
+          "name": "Lineup"
+        }
+      },
+      "Invitations.java": {
+        "name": "Invitations",
+        "class": {
+          "id": "6e87c200-a286-4187-afb4-29af4c717083",
+          "functions": {
+            "getFromUserId": {
+              "id": "Invitations#getFromUserId"
+            },
+            "getFromUsername": {
+              "id": "Invitations#getFromUsername"
+            },
+            "getTeamId": {
+              "id": "Invitations#getTeamId"
+            },
+            "toString": {
+              "id": "Invitations#toString"
+            },
+            "getUserId": {
+              "id": "Invitations#getUserId"
+            },
+            "getToUsername": {
+              "id": "Invitations#getToUsername"
+            }
+          },
+          "fileName": "myapplication/entites/Invitations.java",
+          "name": "Invitations"
+        }
+      },
+      "Player.java": {
+        "name": "Player",
+        "class": {
+          "id": "45252860-8ae7-4a47-a6f1-2cde1512cdf4",
+          "functions": {
+            "setTeamId": {
+              "id": "Player#setTeamId"
+            },
+            "getName": {
+              "id": "Player#getName"
+            },
+            "getAvatar": {
+              "id": "Player#getAvatar"
+            },
+            "getTeamId": {
+              "id": "Player#getTeamId"
+            },
+            "getIsManager": {
+              "id": "Player#getIsManager"
+            },
+            "getId": {
+              "id": "Player#getId"
+            },
+            "setUuid": {
+              "id": "Player#setUuid"
+            },
+            "setPosition": {
+              "id": "Player#setPosition"
+            },
+            "setNumber": {
+              "id": "Player#setNumber"
+            },
+            "setTeam": {
+              "id": "Player#setTeam"
+            },
+            "getNumber": {
+              "id": "Player#getNumber"
+            },
+            "getPosition": {
+              "id": "Player#getPosition"
+            },
+            "getTeam": {
+              "id": "Player#getTeam"
+            },
+            "getUuid": {
+              "id": "Player#getUuid"
+            },
+            "getNationality": {
+              "id": "Player#getNationality"
+            },
+            "setId": {
+              "id": "Player#setId"
+            },
+            "setIsManager": {
+              "id": "Player#setIsManager"
+            },
+            "setNationality": {
+              "id": "Player#setNationality"
+            }
+          },
+          "fileName": "myapplication/entites/Player.java",
+          "name": "Player"
+        }
+      },
+      "FcmToken.java": {
+        "name": "FcmToken",
+        "class": {
+          "id": "c5879bf3-cfc4-4c6c-82f2-94681069c9c8",
+          "functions": {
+            "setTokenValue": {
+              "id": "FcmToken#setTokenValue"
+            },
+            "getToken": {
+              "id": "FcmToken#getToken"
+            },
+            "getTokenValue": {
+              "id": "FcmToken#getTokenValue"
+            }
+          },
+          "fileName": "myapplication/entites/FcmToken.java",
+          "name": "FcmToken"
+        }
+      }
+    },
+    "controller": {
+      "NotificationHandler.java": {
+        "name": "NotificationHandler",
+        "class": {
+          "id": "378ceb4e-02ba-4cbd-9877-bbb0f1bba360",
+          "functions": {
+            "onMessageReceived": {
+              "id": "NotificationHandler#onMessageReceived"
+            }
+          },
+          "fileName": "myapplication/controller/NotificationHandler.java",
+          "name": "NotificationHandler"
+        }
+      },
+      "InvitePlayers.java": {
+        "name": "InvitePlayers",
+        "class": {
+          "id": "ae695bfe-2d53-4fb7-9579-c6adc59e9026",
+          "functions": {
+            "onCreate": {
+              "id": "InvitePlayers#onCreate"
+            },
+            "onCreateView": {
+              "id": "InvitePlayers#onCreateView"
+            }
+          },
+          "fileName": "myapplication/controller/InvitePlayers.java",
+          "name": "InvitePlayers"
+        }
+      },
+      "ColorPicker.java": {
+        "name": "ColorPicker",
+        "class": {
+          "id": "5a1b9871-7dc4-4827-879b-c9852d674110",
+          "functions": {
+            "onCreate": {
+              "id": "ColorPicker#onCreate"
+            },
+            "setLayoutColor": {
+              "id": "ColorPicker#setLayoutColor"
+            },
+            "onActivityResult": {
+              "id": "ColorPicker#onActivityResult"
+            }
+          },
+          "fileName": "myapplication/controller/ColorPicker.java",
+          "name": "ColorPicker"
+        }
+      },
+      "GenerateLineupFragment.java": {
+        "name": "GenerateLineupFragment",
+        "class": {
+          "id": "3a6cf6ff-8a8c-4e74-96c0-a67d1093bb72",
+          "functions": {
+            "onDestroyView": {
+              "id": "GenerateLineupFragment#onDestroyView"
+            },
+            "onCreateView": {
+              "id": "GenerateLineupFragment#onCreateView"
+            },
+            "getFormation": {
+              "id": "GenerateLineupFragment#getFormation"
+            }
+          },
+          "fileName": "myapplication/controller/GenerateLineupFragment.java",
+          "name": "GenerateLineupFragment"
+        }
+      },
+      "ProfileFragment.java": {
+        "name": "ProfileFragment",
+        "class": {
+          "id": "67e1b923-9ba6-448e-92b9-d3b00534dc3a",
+          "functions": {
+            "onDestroyView": {
+              "id": "ProfileFragment#onDestroyView"
+            },
+            "onCreateView": {
+              "id": "ProfileFragment#onCreateView"
+            }
+          },
+          "fileName": "myapplication/controller/ProfileFragment.java",
+          "name": "ProfileFragment"
+        }
+      },
+      "StartActivity.java": {
+        "name": "StartActivity",
+        "class": {
+          "id": "6db2b3f3-be00-4057-9edf-b075e3dabfd6",
+          "functions": {
+            "showHompageOnClick": {
+              "id": "StartActivity#showHompageOnClick"
+            },
+            "onCreate": {
+              "id": "StartActivity#onCreate"
+            },
+            "openGenerateLineupFragment": {
+              "id": "StartActivity#openGenerateLineupFragment"
+            },
+            "openRegisterPageActivity": {
+              "id": "StartActivity#openRegisterPageActivity"
+            },
+            "showRegisterPageOnClick": {
+              "id": "StartActivity#showRegisterPageOnClick"
+            },
+            "onActivityResult": {
+              "id": "StartActivity#onActivityResult"
+            },
+            "openLoginActivity": {
+              "id": "StartActivity#openLoginActivity"
+            },
+            "showGenerateLineupFragment": {
+              "id": "StartActivity#showGenerateLineupFragment"
+            }
+          },
+          "fileName": "myapplication/controller/StartActivity.java",
+          "name": "StartActivity"
+        }
+      },
+      "AdminFragment.java": {
+        "name": "AdminFragment",
+        "class": {
+          "id": "96eb1dbb-782c-46bc-90eb-c514776fc490",
+          "functions": {
+            "onDestroyView": {
+              "id": "AdminFragment#onDestroyView"
+            },
+            "onCreateView": {
+              "id": "AdminFragment#onCreateView"
+            }
+          },
+          "fileName": "myapplication/controller/AdminFragment.java",
+          "name": "AdminFragment"
+        }
+      },
+      "MainActivity.java": {
+        "name": "MainActivity",
+        "class": {
+          "id": "efc4d383-9c7f-46c3-8532-250d6cd348b8",
+          "functions": {
+            "onCreate": {
+              "id": "MainActivity#onCreate"
+            },
+            "getPlayer": {
+              "id": "MainActivity#getPlayer"
+            },
+            "showScreen": {
+              "id": "MainActivity#showScreen"
+            },
+            "getTeam": {
+              "id": "MainActivity#getTeam"
+            },
+            "getPlayersToInvite": {
+              "id": "MainActivity#getPlayersToInvite"
+            },
+            "setPlayer": {
+              "id": "MainActivity#setPlayer"
+            },
+            "onSupportNavigateUp": {
+              "id": "MainActivity#onSupportNavigateUp"
+            },
+            "getPlayers": {
+              "id": "MainActivity#getPlayers"
+            },
+            "setTeam": {
+              "id": "MainActivity#setTeam"
+            }
+          },
+          "fileName": "myapplication/controller/MainActivity.java",
+          "name": "MainActivity"
+        }
+      },
+      "TeamInfoFragment.java": {
+        "name": "TeamInfoFragment",
+        "class": {
+          "id": "f599bd76-9a8b-4627-ba67-2ae886da9b32",
+          "functions": {
+            "displayErrorToast": {
+              "id": "TeamInfoFragment#displayErrorToast"
+            },
+            "onDestroyView": {
+              "id": "TeamInfoFragment#onDestroyView"
+            },
+            "displayTeamInfo": {
+              "id": "TeamInfoFragment#displayTeamInfo"
+            },
+            "getPhotoPickerIntent": {
+              "id": "TeamInfoFragment#getPhotoPickerIntent"
+            },
+            "onCreateView": {
+              "id": "TeamInfoFragment#onCreateView"
+            },
+            "toggleSaveDiscardButtons": {
+              "id": "TeamInfoFragment#toggleSaveDiscardButtons"
+            },
+            "makeBoxesVisible": {
+              "id": "TeamInfoFragment#makeBoxesVisible"
+            }
+          },
+          "fileName": "myapplication/controller/TeamInfoFragment.java",
+          "name": "TeamInfoFragment"
+        }
+      },
+      "RegisterActivity.java": {
+        "name": "RegisterActivity",
+        "class": {
+          "id": "14cd67d3-e3bf-4faa-bda6-0c6b5af20f7d",
+          "functions": {
+            "onCreate": {
+              "id": "RegisterActivity#onCreate"
+            }
+          },
+          "fileName": "myapplication/controller/RegisterActivity.java",
+          "name": "RegisterActivity"
+        }
+      },
+      "LoginActivity.java": {
+        "name": "LoginActivity",
+        "class": {
+          "id": "fe1392cb-b439-41b1-8fd5-9fd30029fa06",
+          "functions": {
+            "onCreate": {
+              "id": "LoginActivity#onCreate"
+            }
+          },
+          "fileName": "myapplication/controller/LoginActivity.java",
+          "name": "LoginActivity"
+        }
+      },
+      "PlayersFragment.java": {
+        "name": "PlayersFragment",
+        "class": {
+          "id": "7a071bfd-8a97-43c0-a93f-f05f961e0e4f",
+          "functions": {
+            "onDestroyView": {
+              "id": "PlayersFragment#onDestroyView"
+            },
+            "onCreateView": {
+              "id": "PlayersFragment#onCreateView"
+            }
+          },
+          "fileName": "myapplication/controller/PlayersFragment.java",
+          "name": "PlayersFragment"
+        }
+      },
+      "AboutFragment.java": {
+        "name": "AboutFragment",
+        "class": {
+          "id": "1c253975-263d-49f9-963e-248f6b327ca2",
+          "functions": {
+            "onCreate": {
+              "id": "AboutFragment#onCreate"
+            },
+            "newInstance": {
+              "id": "AboutFragment#newInstance"
+            },
+            "onCreateView": {
+              "id": "AboutFragment#onCreateView"
+            }
+          },
+          "fileName": "myapplication/controller/AboutFragment.java",
+          "name": "AboutFragment"
+        }
+      },
+      "GenerateBackground.java": {
+        "name": "GenerateBackground",
+        "class": {
+          "id": "5b15bd72-cadc-4b8d-bc08-902f55f7eb47",
+          "functions": {},
+          "fileName": "myapplication/controller/GenerateBackground.java",
+          "name": "GenerateBackground"
+        }
+      }
+    },
+    "model": {
+      "TeamInfoModel.java": {
+        "name": "TeamInfoModel",
+        "class": {
+          "id": "b0ce7940-9fa7-447f-885a-124aef491d80",
+          "functions": {
+            "loadImageFromFiresbase": {
+              "id": "TeamInfoModel#loadImageFromFiresbase"
+            },
+            "handleResult": {
+              "id": "TeamInfoModel#handleResult"
+            },
+            "storeImageToFirebaseStorage": {
+              "id": "TeamInfoModel#storeImageToFirebaseStorage"
+            },
+            "getColorPickerIntent": {
+              "id": "TeamInfoModel#getColorPickerIntent"
+            },
+            "loadImageFromUrl": {
+              "id": "TeamInfoModel#loadImageFromUrl"
+            },
+            "getInputStream": {
+              "id": "TeamInfoModel#getInputStream"
+            },
+            "loadImage": {
+              "id": "TeamInfoModel#loadImage"
+            }
+          },
+          "fileName": "myapplication/model/TeamInfoModel.java",
+          "name": "TeamInfoModel"
+        }
+      },
+      "TeamModel.java": {
+        "name": "TeamModel",
+        "class": {
+          "id": "5ab48c06-498b-48b9-ac08-b3b3be782b7a",
+          "functions": {
+            "getTeam": {
+              "id": "TeamModel#getTeam"
+            },
+            "addTeam": {
+              "id": "TeamModel#addTeam"
+            }
+          },
+          "fileName": "myapplication/model/TeamModel.java",
+          "name": "TeamModel"
+        }
+      },
+      "PlayerItem.java": {
+        "name": "PlayerItem",
+        "class": {
+          "id": "b751be4d-2d95-48d0-9ce9-7cc249a4f2b2",
+          "functions": {
+            "setImageUrl": {
+              "id": "PlayerItem#setImageUrl"
+            },
+            "getNumber": {
+              "id": "PlayerItem#getNumber"
+            },
+            "setGamerTag": {
+              "id": "PlayerItem#setGamerTag"
+            },
+            "getPosition": {
+              "id": "PlayerItem#getPosition"
+            },
+            "setUsername": {
+              "id": "PlayerItem#setUsername"
+            },
+            "getGamerTag": {
+              "id": "PlayerItem#getGamerTag"
+            },
+            "getImageUrl": {
+              "id": "PlayerItem#getImageUrl"
+            },
+            "getNationality": {
+              "id": "PlayerItem#getNationality"
+            },
+            "setPosition": {
+              "id": "PlayerItem#setPosition"
+            },
+            "setNationality": {
+              "id": "PlayerItem#setNationality"
+            },
+            "setNumber": {
+              "id": "PlayerItem#setNumber"
+            },
+            "getUsername": {
+              "id": "PlayerItem#getUsername"
+            }
+          },
+          "fileName": "myapplication/model/PlayerItem.java",
+          "name": "PlayerItem"
+        }
+      },
+      "InvitationListAdapter.java": {
+        "name": "InvitationListAdapter",
+        "class": {
+          "id": "c38842b2-d0d6-4e75-b771-8068cd046f58",
+          "functions": {
+            "getItemCount": {
+              "id": "InvitationListAdapter#getItemCount"
+            },
+            "onCreateViewHolder": {
+              "id": "InvitationListAdapter#onCreateViewHolder"
+            },
+            "onBindViewHolder": {
+              "id": "InvitationListAdapter#onBindViewHolder"
+            }
+          },
+          "fileName": "myapplication/model/InvitationListAdapter.java",
+          "name": "InvitationListAdapter"
+        }
+      },
+      "name": "ViewHolder",
+      "class": {
+        "id": "edfee3e6-5abf-467f-893c-57df880705c6",
+        "functions": {},
+        "fileName": "myapplication/model/PlayerInfoListAdapter.java",
+        "name": "ViewHolder"
+      },
+      "GenerateLineupModel.java": {
+        "name": "GenerateLineupModel",
+        "class": {
+          "id": "ee8b224d-a5d6-49f8-9669-6c54d7ef133d",
+          "functions": {
+            "addAutocomplete": {
+              "id": "GenerateLineupModel#addAutocomplete"
+            },
+            "getResponse": {
+              "id": "GenerateLineupModel#getResponse"
+            },
+            "createLineupRequest": {
+              "id": "GenerateLineupModel#createLineupRequest"
+            },
+            "shareImage": {
+              "id": "GenerateLineupModel#shareImage"
+            },
+            "getBitmapFromResponse": {
+              "id": "GenerateLineupModel#getBitmapFromResponse"
+            },
+            "playerToPlayerItem": {
+              "id": "GenerateLineupModel#playerToPlayerItem"
+            },
+            "getPlayerFromInputFields": {
+              "id": "GenerateLineupModel#getPlayerFromInputFields"
+            },
+            "setActivity": {
+              "id": "GenerateLineupModel#setActivity"
+            },
+            "loadPlayerDropdown": {
+              "id": "GenerateLineupModel#loadPlayerDropdown"
+            },
+            "createLineup": {
+              "id": "GenerateLineupModel#createLineup"
+            },
+            "storeBitMapInAppdata": {
+              "id": "GenerateLineupModel#storeBitMapInAppdata"
+            },
+            "addPlayerFromInputField": {
+              "id": "GenerateLineupModel#addPlayerFromInputField"
+            },
+            "addInputFields": {
+              "id": "GenerateLineupModel#addInputFields"
+            },
+            "setHints": {
+              "id": "GenerateLineupModel#setHints"
+            },
+            "saveImage": {
+              "id": "GenerateLineupModel#saveImage"
+            }
+          },
+          "fileName": "myapplication/model/GenerateLineupModel.java",
+          "name": "GenerateLineupModel"
+        }
+      },
+      "Authentication.java": {
+        "name": "Authentication",
+        "class": {
+          "id": "14ecee14-b881-486c-b191-1c15e115b868",
+          "functions": {
+            "authenticateUser": {
+              "id": "Authentication#authenticateUser"
+            },
+            "deleteUser": {
+              "id": "Authentication#deleteUser"
+            },
+            "createUser": {
+              "id": "Authentication#createUser"
+            }
+          },
+          "fileName": "myapplication/model/Authentication.java",
+          "name": "Authentication"
+        }
+      },
+      "AutocompleteAdapter.java": {
+        "name": "AutocompleteAdapter",
+        "class": {
+          "id": "cf9cc9cd-29e7-4ad2-9bb5-e93a4f5fbaff",
+          "functions": {
+            "getFilter": {
+              "id": "AutocompleteAdapter#getFilter"
+            },
+            "getView": {
+              "id": "AutocompleteAdapter#getView"
+            }
+          },
+          "fileName": "myapplication/model/AutocompleteAdapter.java",
+          "name": "AutocompleteAdapter"
+        }
+      },
+      "LoginModel.java": {
+        "name": "LoginModel",
+        "class": {
+          "id": "3180c972-8fb5-48ba-b49a-51890d6dd453",
+          "functions": {
+            "isFieldsEmpty": {
+              "id": "LoginModel#isFieldsEmpty"
+            },
+            "signIn": {
+              "id": "LoginModel#signIn"
+            }
+          },
+          "fileName": "myapplication/model/LoginModel.java",
+          "name": "LoginModel"
+        }
+      },
+      "PlayersModel.java": {
+        "name": "PlayersModel",
+        "class": {
+          "id": "ab7b59f3-2915-42b9-a779-9ee460e9ae50",
+          "functions": {
+            "getText": {
+              "id": "PlayersModel#getText"
+            }
+          },
+          "fileName": "myapplication/model/PlayersModel.java",
+          "name": "PlayersModel"
+        }
+      },
+      "LineupModel.java": {
+        "name": "LineupModel",
+        "class": {
+          "id": "684002ba-268a-4e86-9e6b-9313d045504b",
+          "functions": {
+            "generateLineup": {
+              "id": "LineupModel#generateLineup"
+            }
+          },
+          "fileName": "myapplication/model/LineupModel.java",
+          "name": "LineupModel"
+        }
+      },
+      "AdminTeamListAdapter.java": {
+        "name": "AdminTeamListAdapter",
+        "class": {
+          "id": "3b3399f0-025f-4d0f-ad87-4167ff0d0aa1",
+          "functions": {
+            "getItemCount": {
+              "id": "AdminTeamListAdapter#getItemCount"
+            },
+            "onCreateViewHolder": {
+              "id": "AdminTeamListAdapter#onCreateViewHolder"
+            },
+            "onBindViewHolder": {
+              "id": "AdminTeamListAdapter#onBindViewHolder"
+            }
+          },
+          "fileName": "myapplication/model/AdminTeamListAdapter.java",
+          "name": "AdminTeamListAdapter"
+        }
+      },
+      "PlayerInfoListAdapter.java": {
+        "name": "PlayerInfoListAdapter",
+        "class": {
+          "id": "622cb370-530a-41ec-8a34-e348553a0a59",
+          "functions": {
+            "getItemCount": {
+              "id": "PlayerInfoListAdapter#getItemCount"
+            },
+            "onCreateViewHolder": {
+              "id": "PlayerInfoListAdapter#onCreateViewHolder"
+            },
+            "onBindViewHolder": {
+              "id": "PlayerInfoListAdapter#onBindViewHolder"
+            }
+          },
+          "fileName": "myapplication/model/PlayerInfoListAdapter.java",
+          "name": "PlayerInfoListAdapter"
+        }
+      }
+    }
+  }
+}
